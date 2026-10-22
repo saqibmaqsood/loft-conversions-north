@@ -1,0 +1,993 @@
+<?php
+$pageTitle = "Loft Conversions North — Fixed-price loft conversions, North West";
+$pageDesc = "Loft conversions in Preston, Manchester, Lancashire and Cheshire. Fixed price, guaranteed quote, no hidden costs. Book a free survey.";
+$activePage = "home";
+$ogImage = "images/another-area-loft-conversions-north-west-england-01.jpeg";
+
+$schemaJson = json_encode([
+    [
+        "@context" => "https://schema.org",
+        "@type" => "LocalBusiness",
+        "name" => "Loft Conversions North",
+        "image" => "images/another-area-loft-conversions-north-west-england-01.jpeg",
+        "telephone" => "0161 4100155",
+        "email" => "info@loftconversionsnorth.co.uk",
+        "address" => [
+            "@type" => "PostalAddress",
+            "streetAddress" => "Central Manchester & Regional North Office",
+            "addressLocality" => "Preston",
+            "postalCode" => "M1 1AD",
+            "addressCountry" => "GB"
+        ],
+        "areaServed" => ["Preston", "Manchester", "Lancashire", "Cheshire"],
+        "aggregateRating" => [
+            "@type" => "AggregateRating",
+            "ratingValue" => "4.9",
+            "reviewCount" => "400"
+        ]
+    ],
+    [
+        "@context" => "https://schema.org",
+        "@type" => "Service",
+        "serviceType" => "Loft conversion",
+        "provider" => [
+            "@type" => "LocalBusiness",
+            "name" => "Loft Conversions North"
+        ],
+        "offers" => [
+            "@type" => "AggregateOffer",
+            "priceCurrency" => "GBP",
+            "lowPrice" => "24000"
+        ]
+    ]
+], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
+
+include 'includes/header.php';
+?>
+
+  <main id="top">
+
+    <style>
+      .hero-minimal {
+        position: relative;
+        min-height: clamp(520px, 78vh, 720px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: clamp(64px, 10vh, 120px) 24px clamp(56px, 8vh, 100px);
+        background: #0E1B2A url('images/hero-loft-bg.jpg?v=20261022') center 40% / cover no-repeat;
+        color: #FFFFFF;
+        overflow: hidden;
+        box-sizing: border-box;
+      }
+      .hero-minimal-overlay {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(180deg, rgba(14, 27, 42, 0.42) 0%, rgba(9, 19, 30, 0.68) 55%, rgba(6, 13, 20, 0.86) 100%),
+                    radial-gradient(ellipse at 50% 35%, rgba(0, 0, 0, 0.12) 0%, rgba(6, 13, 20, 0.62) 100%);
+        pointer-events: none;
+        z-index: 1;
+      }
+      .hero-minimal-inner {
+        position: relative;
+        z-index: 2;
+        max-width: 860px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 22px;
+      }
+      .hero-minimal-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: rgba(255, 255, 255, 0.12);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.22);
+        color: #FFFFFF;
+        font-family: var(--font-sans);
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        padding: 7px 18px;
+        border-radius: 999px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+      }
+      .hero-minimal-title {
+        font-family: var(--font-serif);
+        font-size: clamp(38px, 6vw, 68px);
+        font-weight: 400;
+        line-height: 1.1;
+        letter-spacing: -0.025em;
+        color: #FFFFFF;
+        margin: 0;
+        text-wrap: balance;
+        text-shadow: 0 2px 14px rgba(0, 0, 0, 0.6);
+      }
+      .hero-minimal-subtitle {
+        font-family: var(--font-sans);
+        font-size: clamp(16px, 2vw, 19px);
+        font-weight: 400;
+        line-height: 1.6;
+        color: rgba(255, 255, 255, 0.90);
+        max-width: 640px;
+        margin: 0;
+        text-wrap: pretty;
+        text-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+      }
+      .hero-minimal-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 6px;
+      }
+      .hero-minimal-cta {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 9px;
+        background: linear-gradient(135deg, #1B75BC 0%, #135284 100%);
+        color: #FFFFFF !important;
+        font-family: var(--font-sans);
+        font-size: 15.5px;
+        font-weight: 700;
+        letter-spacing: 0.015em;
+        padding: 16px 36px;
+        border-radius: 999px;
+        text-decoration: none;
+        white-space: nowrap;
+        box-shadow: 0 6px 20px rgba(19, 82, 132, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.28);
+        transition: all 0.25s cubic-bezier(0.2, 0, 0, 1);
+        position: relative;
+        overflow: hidden;
+      }
+      .hero-minimal-cta:hover {
+        background: linear-gradient(135deg, #2488D4 0%, #175D94 100%);
+        transform: none !important;
+        box-shadow: 0 6px 20px rgba(19, 82, 132, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.4);
+      }
+      .hero-minimal-cta svg {
+        transition: transform 0.22s ease;
+      }
+      .hero-minimal-cta:hover svg {
+        transform: translateX(3px);
+      }
+      .hero-minimal-phone {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        background: rgba(255, 255, 255, 0.12);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.28);
+        color: #FFFFFF !important;
+        font-family: var(--font-sans);
+        font-size: 15px;
+        font-weight: 600;
+        padding: 15px 28px;
+        border-radius: 999px;
+        text-decoration: none;
+        white-space: nowrap;
+        transition: background-color 0.22s ease, border-color 0.22s ease;
+      }
+      .hero-minimal-phone:hover {
+        background: rgba(255, 255, 255, 0.22);
+        border-color: rgba(255, 255, 255, 0.45);
+        transform: none !important;
+        box-shadow: none;
+      }
+      .hero-minimal-features {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px 28px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 12px;
+        font-family: var(--font-sans);
+        font-size: 13px;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 0.85);
+        text-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+      }
+      .hero-minimal-feature {
+        display: inline-flex;
+        align-items: center;
+        gap: 7px;
+      }
+      .hero-minimal-feature svg {
+        stroke: #2997D8;
+        flex-shrink: 0;
+      }
+      @media (max-width: 640px) {
+        .hero-minimal {
+          padding: 48px 18px 44px;
+          min-height: auto;
+        }
+        .hero-minimal-inner {
+          gap: 18px;
+        }
+        .hero-minimal-actions {
+          flex-direction: column;
+          width: 100%;
+          gap: 10px;
+        }
+        .hero-minimal-cta,
+        .hero-minimal-phone {
+          width: 100%;
+          box-sizing: border-box;
+          padding: 14px 20px;
+          font-size: 15px;
+        }
+        .hero-minimal-features {
+          gap: 8px 16px;
+          font-size: 12px;
+        }
+      }
+    </style>
+
+    <!-- Hero Section (Minimalist Full-Bleed Architectural Design) -->
+    <section class="hero-minimal" aria-labelledby="hero-h">
+      <div class="hero-minimal-overlay"></div>
+      <div class="hero-minimal-inner">
+        <span class="hero-minimal-pill">Greater Manchester · Lancashire · Cheshire · Merseyside</span>
+        <h1 id="hero-h" class="hero-minimal-title">Precision Northern Loft Conversions &mdash; Fixed Price, Built in 3 to 6 Weeks.</h1>
+        <p class="hero-minimal-subtitle">Free laser survey, custom expert layout guidance, and guaranteed fixed pricing across Greater Manchester, Lancashire, and Cheshire.</p>
+        <div class="hero-minimal-actions">
+          <a href="#booking" data-open-booking class="hero-minimal-cta">
+            <span>Book Free Survey</span>
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="tel:01614100155" class="hero-minimal-phone">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>Call 0161 4100155</span>
+          </a>
+        </div>
+        <div class="hero-minimal-features">
+          <span class="hero-minimal-feature"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M3.5 8.5l3 3 6-6"/></svg> Guaranteed Fixed Price</span>
+          <span class="hero-minimal-feature"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M3.5 8.5l3 3 6-6"/></svg> No Hidden Costs</span>
+          <span class="hero-minimal-feature"><svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M3.5 8.5l3 3 6-6"/></svg> 6-Year Guarantee</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust Indicators Bar (Containerized & Creative Design) -->
+    <section data-stats-bar aria-label="Trust indicators" class="trust-bar-section">
+      <div class="trust-bar-card">
+        <div class="trust-item">
+          <div class="trust-item-icon">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          </div>
+          <div class="trust-item-content">
+            <span class="trust-item-val" data-target-value="9.8" data-decimals="1" data-suffix="/ 10">9.8 / 10</span>
+            <span class="trust-item-lbl">Checkatrade rating</span>
+          </div>
+        </div>
+
+        <div class="trust-item">
+          <div class="trust-item-icon">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          </div>
+          <div class="trust-item-content">
+            <span class="trust-item-val" data-target-value="22" data-decimals="0" data-suffix="yrs">22 yrs</span>
+            <span class="trust-item-lbl">Converting lofts</span>
+          </div>
+        </div>
+
+        <div class="trust-item">
+          <div class="trust-item-icon">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+          </div>
+          <div class="trust-item-content">
+            <span class="trust-item-val" data-target-value="400" data-decimals="0" data-suffix="+">400+</span>
+            <span class="trust-item-lbl">Completed projects</span>
+          </div>
+        </div>
+
+        <div class="trust-item">
+          <div class="trust-item-icon">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          </div>
+          <div class="trust-item-content">
+            <span class="trust-item-val" data-target-value="4.9" data-decimals="1" data-suffix="★">4.9 ★</span>
+            <span class="trust-item-lbl">Google reviews</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works (Process) -->
+    <section id="process" data-reveal aria-labelledby="proc-h" class="section-padding bg-white border-bottom">
+      <div class="container">
+        <div class="proc-header-row" style="display:flex;flex-wrap:wrap;gap:20px 48px;align-items:flex-end;justify-content:space-between;margin-bottom:44px">
+          <div class="proc-header-left">
+            <span class="section-label">How it works</span>
+            <div class="proc-title-controls-wrap">
+              <h2 id="proc-h" class="heading-h2 proc-heading-title" style="margin:12px 0 0;max-width:24ch">Your Journey: 5 Transparent Steps from Laser Survey to Council Sign-Off.</h2>
+              <div class="proc-controls-group">
+                <div class="proc-step-counter">
+                  <span class="proc-counter-label">Step</span>
+                  <span class="proc-current-num">01</span>
+                  <span class="proc-total-num">/ 05</span>
+                </div>
+                <div class="carousel-nav-arrows proc-carousel-arrows">
+                  <button type="button" class="carousel-nav-btn proc-prev-btn" aria-label="Previous step">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                  </button>
+                  <button type="button" class="carousel-nav-btn proc-next-btn" aria-label="Next step">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="proc-checkatrade-box" style="display:flex;align-items:flex-end">
+            <a href="https://www.checkatrade.com/trades/AnotherLevelLoftConversionsNw" target="_blank" rel="noopener noreferrer" class="proc-checkatrade-link" style="display:inline-flex;align-items:center;transition:opacity 0.2s ease" title="Checkatrade Verified - Loft Conversions North">
+              <img src="images/checkatrade-proud-member.png" alt="Proud members of Checkatrade.com - Where reputation matters" class="proc-checkatrade-img" style="height:clamp(85px,7.8vw,115px);width:auto;object-fit:contain;display:block">
+            </a>
+          </div>
+        </div>
+        <div class="proc-steps-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:1px;background:#E4E4DF;border:1px solid #E4E4DF">
+          
+          <div class="proc-step-card" style="background:#FFFFFF;padding:24px 22px 26px;display:flex;flex-direction:column;gap:12px;color:#1A1A1A;transition:background .2s ease" onmouseover="this.style.background='#F0F7FD'" onmouseout="this.style.background='#FFFFFF'">
+            <div class="proc-step-top" style="display:flex;align-items:center;justify-content:space-between">
+              <span class="proc-step-num" style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#1B75BC;letter-spacing:.14em;font-weight:600">01</span>
+              <svg class="proc-step-icon" viewBox="0 0 32 32" width="30" height="30" fill="none" stroke="#1A1A1A" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 27h24M8 27V13l8-6 8 6v14M13 27v-7h6v7"></path></svg>
+            </div>
+            <span class="proc-step-title" style="font-family:Newsreader,Georgia,serif;font-size:21px;line-height:1.15">Free survey</span>
+            <span class="proc-step-desc" style="font-size:14px;line-height:1.6;color:#6B6B6B">We measure the ridge height, check the trusses and talk through what fits.</span>
+            <span class="proc-step-tags" style="display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:auto;padding-top:8px;font-family:'IBM Plex Mono',monospace;font-size:12px">
+              <span class="proc-step-tag proc-tag-accent" style="color:#135284">45 mins</span><span class="proc-step-tag" style="color:#6B6B6B">No obligation</span>
+            </span>
+          </div>
+
+          <div class="proc-step-card" style="background:#FFFFFF;padding:24px 22px 26px;display:flex;flex-direction:column;gap:12px;color:#1A1A1A;transition:background .2s ease" onmouseover="this.style.background='#F0F7FD'" onmouseout="this.style.background='#FFFFFF'">
+            <div class="proc-step-top" style="display:flex;align-items:center;justify-content:space-between">
+              <span class="proc-step-num" style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#1B75BC;letter-spacing:.14em;font-weight:600">02</span>
+              <svg class="proc-step-icon" viewBox="0 0 32 32" width="30" height="30" fill="none" stroke="#1A1A1A" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 4h14l4 4v20H7zM11 13h10M11 18h10M11 23h6"></path></svg>
+            </div>
+            <span class="proc-step-title" style="font-family:Newsreader,Georgia,serif;font-size:21px;line-height:1.15">Survey &amp; fixed quote</span>
+            <span class="proc-step-desc" style="font-size:14px;line-height:1.6;color:#6B6B6B">A comprehensive survey plus one written price. It includes building control fees.</span>
+            <span class="proc-step-tags" style="display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:auto;padding-top:8px;font-family:'IBM Plex Mono',monospace;font-size:12px">
+              <span class="proc-step-tag proc-tag-accent" style="color:#135284">Guaranteed</span><span class="proc-step-tag" style="color:#6B6B6B">Fixed price</span>
+            </span>
+          </div>
+
+          <div class="proc-step-card" style="background:#FFFFFF;padding:24px 22px 26px;display:flex;flex-direction:column;gap:12px;color:#1A1A1A;transition:background .2s ease" onmouseover="this.style.background='#F0F7FD'" onmouseout="this.style.background='#FFFFFF'">
+            <div class="proc-step-top" style="display:flex;align-items:center;justify-content:space-between">
+              <span class="proc-step-num" style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#1B75BC;letter-spacing:.14em;font-weight:600">03</span>
+              <svg class="proc-step-icon" viewBox="0 0 32 32" width="30" height="30" fill="none" stroke="#1A1A1A" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 4l11 5v8c0 6-4.6 10.3-11 11-6.4-.7-11-5-11-11V9zM11 16l4 4 7-7"></path></svg>
+            </div>
+            <span class="proc-step-title" style="font-family:Newsreader,Georgia,serif;font-size:21px;line-height:1.15">Approval</span>
+            <span class="proc-step-desc" style="font-size:14px;line-height:1.6;color:#6B6B6B">Structural survey, calculations, and we file with Building Control for you.</span>
+            <span class="proc-step-tags" style="display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:auto;padding-top:8px;font-family:'IBM Plex Mono',monospace;font-size:12px">
+              <span class="proc-step-tag proc-tag-accent" style="color:#135284">Fully handled</span><span class="proc-step-tag" style="color:#6B6B6B">Building control</span>
+            </span>
+          </div>
+
+          <div class="proc-step-card" style="background:#FFFFFF;padding:24px 22px 26px;display:flex;flex-direction:column;gap:12px;color:#1A1A1A;transition:background .2s ease" onmouseover="this.style.background='#F0F7FD'" onmouseout="this.style.background='#FFFFFF'">
+            <div class="proc-step-top" style="display:flex;align-items:center;justify-content:space-between">
+              <span class="proc-step-num" style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#1B75BC;letter-spacing:.14em;font-weight:600">04</span>
+              <svg class="proc-step-icon" viewBox="0 0 32 32" width="30" height="30" fill="none" stroke="#1A1A1A" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 28V12l10-7 10 7v16M6 12h20M16 5v23M11 20h10"></path></svg>
+            </div>
+            <span class="proc-step-title" style="font-family:Newsreader,Georgia,serif;font-size:21px;line-height:1.15">Build</span>
+            <span class="proc-step-desc" style="font-size:14px;line-height:1.6;color:#6B6B6B">Steels, floor, dormer, staircase, insulation, plaster. Three to six weeks.</span>
+            <span class="proc-step-tags" style="display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:auto;padding-top:8px;font-family:'IBM Plex Mono',monospace;font-size:12px">
+              <span class="proc-step-tag proc-tag-accent" style="color:#135284">3–6 weeks</span><span class="proc-step-tag" style="color:#6B6B6B">In-house team</span>
+            </span>
+          </div>
+
+          <div class="proc-step-card" style="background:#FFFFFF;padding:24px 22px 26px;display:flex;flex-direction:column;gap:12px;color:#1A1A1A;transition:background .2s ease" onmouseover="this.style.background='#F0F7FD'" onmouseout="this.style.background='#FFFFFF'">
+            <div class="proc-step-top" style="display:flex;align-items:center;justify-content:space-between">
+              <span class="proc-step-num" style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#1B75BC;letter-spacing:.14em;font-weight:600">05</span>
+              <svg class="proc-step-icon" viewBox="0 0 32 32" width="30" height="30" fill="none" stroke="#1A1A1A" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 16l7 7L27 8"></path></svg>
+            </div>
+            <span class="proc-step-title" style="font-family:Newsreader,Georgia,serif;font-size:21px;line-height:1.15">Handover</span>
+            <span class="proc-step-desc" style="font-size:14px;line-height:1.6;color:#6B6B6B">Completion certificate, guarantee paperwork, and the site left clean.</span>
+            <span class="proc-step-tags" style="display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:auto;padding-top:8px;font-family:'IBM Plex Mono',monospace;font-size:12px">
+              <span class="proc-step-tag proc-tag-accent" style="color:#135284">10-yr guarantee</span><span class="proc-step-tag" style="color:#6B6B6B">Certified</span>
+            </span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Free Survey Booking Inline Section -->
+    <section id="booking" data-reveal aria-labelledby="book-h" class="section-padding bg-gray border-top">
+      <div class="container-narrow">
+        <div style="display:flex;flex-wrap:wrap;gap:24px 48px;align-items:flex-end;justify-content:space-between;margin:0 0 40px">
+          <div style="flex:2 1 460px">
+            <span class="section-label">Free survey</span>
+            <h2 id="book-h" class="heading-h2">Book a Senior Northern Surveyor &mdash; No Call Centres or Sales Reps.</h2>
+          </div>
+          <p style="flex:1 1 280px;max-width:38ch;font-size:17px;line-height:1.6;color:#4A4A45;margin:0">Three short steps, about ninety seconds. You'll get a written fixed-price proposal within a few days of the visit.</p>
+        </div>
+        <?php 
+          $widgetHeading = "Book your free survey";
+          include 'includes/booking-widget.php'; 
+        ?>
+      </div>
+    </section>
+
+    <!-- Conversion Types Section -->
+    <section id="types" data-reveal aria-labelledby="types-h" class="section-padding bg-white">
+      <div class="container">
+        <div class="conv-types-header" style="display:flex;flex-wrap:wrap;gap:20px 48px;align-items:flex-end;justify-content:space-between;margin-bottom:44px">
+          <div style="flex:2 1 420px">
+            <span class="section-label">Conversion types</span>
+            <h2 id="types-h" class="heading-h2" style="max-width:26ch">Engineered for Northern Roofs. Six Conversion Styles Tailored to Your Property.</h2>
+          </div>
+          <div class="conv-types-actions" style="display:flex;align-items:center;gap:12px">
+            <a href="conversion-types.php" class="btn-secondary conv-types-btn" style="padding:13px 20px;font-size:15px;font-weight:600">Compare all six</a>
+            <div class="carousel-nav-arrows">
+              <button type="button" class="carousel-nav-btn carousel-prev-btn" aria-label="Previous conversion type">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+              </button>
+              <button type="button" class="carousel-nav-btn carousel-next-btn" aria-label="Next conversion type">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="conversion-types-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:20px">
+          <a href="velux-conversion.php" class="conversion-card">
+            <div class="conversion-card-img-wrap">
+              <img src="images/another-area-loft-conversions-north-west-england-03.jpeg" alt="Velux Loft Conversion Bedroom" class="real-img" loading="lazy">
+            </div>
+            <div class="conversion-card-body">
+              <h3 class="conversion-card-title">Velux</h3>
+              <p class="conversion-card-desc">Preserve your exterior roofline while flooding the interior with natural light. The fastest, most cost-effective path to extra living space.</p>
+              <div class="conversion-card-meta">
+                <span class="meta-tag">Quickest build</span>
+                <span class="meta-sub">6–8 weeks on site</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="rear-dormer-conversion.php" class="conversion-card">
+            <div class="conversion-card-img-wrap">
+              <img src="images/another-area-loft-conversions-north-west-england-01.jpeg" alt="Rear Dormer Loft Conversion" class="real-img" loading="lazy">
+            </div>
+            <div class="conversion-card-body">
+              <h3 class="conversion-card-title">Rear Dormer</h3>
+              <p class="conversion-card-desc">Flat-roof timber box across the rear. Maximum floor area, usually permitted development.</p>
+              <div class="conversion-card-meta">
+                <span class="meta-tag">Maximum floor space</span>
+                <span class="meta-sub">8 weeks on site</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="hip-to-gable-conversion.php" class="conversion-card">
+            <div class="conversion-card-img-wrap">
+              <img src="images/another-area-loft-conversions-north-west-england-02.jpeg" alt="Hip-to-Gable Loft Conversion" class="real-img" loading="lazy">
+            </div>
+            <div class="conversion-card-body">
+              <h3 class="conversion-card-title">Hip-to-Gable</h3>
+              <p class="conversion-card-desc">Transforms an awkward sloping hip roof into a vertical gable wall, generating essential volume for a permanent staircase and en-suite master bedroom.</p>
+              <div class="conversion-card-meta">
+                <span class="meta-tag">Ideal for 1930s semis</span>
+                <span class="meta-sub">8–10 weeks on site</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="wrap-around-conversion.php" class="conversion-card">
+            <div class="conversion-card-img-wrap">
+              <img src="images/another-area-loft-conversions-north-west-england-07.jpeg" alt="Wrap Around Loft Conversion" class="real-img" loading="lazy">
+            </div>
+            <div class="conversion-card-body">
+              <h3 class="conversion-card-title">Wrap Around</h3>
+              <p class="conversion-card-desc">Hip-to-gable plus rear dormer. The largest option, and the most technical.</p>
+              <div class="conversion-card-meta">
+                <span class="meta-tag">Master suite + en-suite</span>
+                <span class="meta-sub">8–10 weeks on site</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="hip-end-dormer-conversion.php" class="conversion-card">
+            <div class="conversion-card-img-wrap">
+              <img src="images/another-area-loft-conversions-north-west-england-05.jpeg" alt="Hip-End Dormer Loft Conversion" class="real-img" loading="lazy">
+            </div>
+            <div class="conversion-card-body">
+              <h3 class="conversion-card-title">Hip-End Dormer</h3>
+              <p class="conversion-card-desc">Extends the ridge on a hipped roof, finished in hanging tiles to match.</p>
+              <div class="conversion-card-meta">
+                <span class="meta-tag">Tile-hung extension</span>
+                <span class="meta-sub">6–8 weeks on site</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Property Types Section -->
+    <section id="property" data-reveal aria-labelledby="prop-h" class="section-padding bg-gray border-top">
+      <div class="container">
+        <div class="prop-types-header" style="display:flex;flex-wrap:wrap;gap:20px 48px;align-items:flex-end;justify-content:space-between;margin-bottom:40px">
+          <div style="flex:2 1 420px">
+            <span class="section-label">Property types</span>
+            <h2 id="prop-h" class="heading-h2" style="max-width:24ch">Matching The Conversion To Your Architectural Property Type.</h2>
+          </div>
+          <div class="prop-types-actions" style="display:flex;align-items:center;gap:12px">
+            <a href="property-types.php" class="btn-secondary prop-types-btn" style="padding:13px 20px;font-size:15px;font-weight:600">Compare all four</a>
+            <div class="carousel-nav-arrows prop-carousel-arrows">
+              <button type="button" class="carousel-nav-btn prop-prev-btn" aria-label="Previous property type">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+              </button>
+              <button type="button" class="carousel-nav-btn prop-next-btn" aria-label="Next property type">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="property-overview-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1px;background:#E4E4DF;border:1px solid #E4E4DF">
+          <a href="terrace-property.php" class="property-overview-card">
+            <svg viewBox="0 0 48 32" width="52" height="35" fill="none" stroke="#1A1A1A" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M4 30V14l10-8 10 8v16M24 30V14l10-8 10 8v16M14 30v-8h10v8"></path></svg>
+            <span style="font-family:Newsreader,Georgia,serif;font-size:23px;line-height:1.15">Terrace</span>
+            <span style="font-size:14px;line-height:1.6;color:#6B6B6B">No hip to square off and neighbours both sides, so the rear slope does the work.</span>
+            <span style="display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:auto;padding-top:8px;font-family:'IBM Plex Mono',monospace;font-size:12px">
+              <span style="color:#135284">Rear Dormer Specialist</span><span style="color:#6B6B6B">40m³ Allowance</span>
+            </span>
+          </a>
+
+          <a href="semi-detached-property.php" class="property-overview-card">
+            <svg viewBox="0 0 48 32" width="52" height="35" fill="none" stroke="#1A1A1A" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M8 30V13l12-9 12 9v17M20 30V13M14 30v-7h12v7"></path></svg>
+            <span style="font-family:Newsreader,Georgia,serif;font-size:23px;line-height:1.15">Semi-detached</span>
+            <span style="font-size:14px;line-height:1.6;color:#6B6B6B">The most converted house in the North West, and the most flexible.</span>
+            <span style="display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:auto;padding-top:8px;font-family:'IBM Plex Mono',monospace;font-size:12px">
+              <span style="color:#135284">Hip-to-Gable Flexible</span><span style="color:#6B6B6B">50m³ Allowance</span>
+            </span>
+          </a>
+
+          <a href="detached-property.php" class="property-overview-card">
+            <svg viewBox="0 0 48 32" width="52" height="35" fill="none" stroke="#1A1A1A" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M8 30V14l16-10 16 10v16zM19 30v-8h10v8"></path></svg>
+            <span style="font-family:Newsreader,Georgia,serif;font-size:23px;line-height:1.15">Detached</span>
+            <span style="font-size:14px;line-height:1.6;color:#6B6B6B">Hips both sides on standalone plots. The most design freedom of any type.</span>
+            <span style="display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:auto;padding-top:8px;font-family:'IBM Plex Mono',monospace;font-size:12px">
+              <span style="color:#135284">Maximum Design Freedom</span><span style="color:#6B6B6B">50m³ Allowance</span>
+            </span>
+          </a>
+
+          <a href="bungalow-property.php" class="property-overview-card">
+            <svg viewBox="0 0 48 32" width="52" height="35" fill="none" stroke="#1A1A1A" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M4 30V18l20-12 20 12v12zM18 30v-7h12v7"></path></svg>
+            <span style="font-family:Newsreader,Georgia,serif;font-size:23px;line-height:1.15">Bungalow</span>
+            <span style="font-size:14px;line-height:1.6;color:#6B6B6B">Shallow pitch, so headroom decides. Sometimes the roof comes off.</span>
+            <span style="display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:auto;padding-top:8px;font-family:'IBM Plex Mono',monospace;font-size:12px">
+              <span style="color:#135284">Dormer Extension</span><span style="color:#6B6B6B">Ground vs Upwards</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Before / After Interactive Slider Section -->
+    <section id="gallery" data-reveal aria-labelledby="ba-h" class="section-padding bg-white border-top border-bottom">
+      <div class="container">
+        <div style="display:flex;flex-wrap:wrap;gap:20px 48px;align-items:flex-end;justify-content:space-between;margin-bottom:28px">
+          <div style="flex:2 1 460px">
+            <span class="section-label">Before / After</span>
+            <h2 id="ba-h" class="heading-h2">From Forgotten Attic to Light-Filled Master Suite.</h2>
+          </div>
+          <p style="flex:1 1 260px;max-width:34ch;font-size:16px;line-height:1.6;color:#4A4A45;margin:0">Drag the handle. Four real projects, photographed the week before we started and the day we handed over.</p>
+        </div>
+
+        <div class="ba-container">
+          <div class="ba-slider-area">
+            <div class="ba-before-layer">
+              <img src="images/loft-space-before-conversion.jpg" alt="Loft Space Before Conversion" style="width:100%;height:100%;object-fit:cover;display:block">
+            </div>
+            <div class="ba-after-layer" style="clip-path: inset(0 0 0 50%)">
+              <img src="images/another-area-loft-conversions-north-west-england-01.jpeg" alt="Finished Luxury Loft Conversion Bedroom" style="width:100%;height:100%;object-fit:cover;display:block">
+            </div>
+            <div class="ba-handle-line" style="left: 50%">
+              <span class="ba-handle-knob">&#8596;</span>
+            </div>
+            <span class="ba-badge-before">Before</span>
+            <span class="ba-badge-after">After</span>
+          </div>
+
+          <div class="ba-meta-container" style="background:#FFFFFF;padding:clamp(20px,2.4vw,28px);display:flex;flex-direction:column;gap:18px">
+            <div>
+              <span class="section-label ba-tag">Rear dormer · Bolton</span>
+              <h3 class="ba-title" style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:clamp(22px,2.2vw,28px);line-height:1.15;letter-spacing:-.01em;margin:10px 0 0">Case Study: Unlocking Two Generous Bedrooms and an En-Suite on a 1930s Semi.</h3>
+            </div>
+            <dl class="ba-facts" style="margin:0;display:grid;gap:0">
+              <div class="ba-fact-item" style="display:flex;justify-content:space-between;gap:16px;padding:11px 0;border-top:1px solid #EDEDE8">
+                <dt style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#6B6B6B">Property</dt>
+                <dd style="margin:0;font-size:14px;font-weight:600;text-align:right">Semi-detached</dd>
+              </div>
+              <div class="ba-fact-item" style="display:flex;justify-content:space-between;gap:16px;padding:11px 0;border-top:1px solid #EDEDE8">
+                <dt style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#6B6B6B">On site</dt>
+                <dd style="margin:0;font-size:14px;font-weight:600;text-align:right">8 weeks</dd>
+              </div>
+              <div class="ba-fact-item" style="display:flex;justify-content:space-between;gap:16px;padding:11px 0;border-top:1px solid #EDEDE8">
+                <dt style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#6B6B6B">Floor added</dt>
+                <dd style="margin:0;font-size:14px;font-weight:600;text-align:right">31 m²</dd>
+              </div>
+              <div class="ba-fact-item" style="display:flex;justify-content:space-between;gap:16px;padding:11px 0;border-top:1px solid #EDEDE8">
+                <dt style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#6B6B6B">Guarantee</dt>
+                <dd style="margin:0;font-size:14px;font-weight:600;text-align:right">6 Years</dd>
+              </div>
+            </dl>
+            <div class="ba-projects-grid" style="margin-top:auto;display:grid;gap:6px">
+              <button type="button" class="ba-project-btn active" data-proj="0">
+                <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#135284">01</span>
+                <span style="font-size:13px;font-weight:500">Bolton semi</span>
+              </button>
+              <button type="button" class="ba-project-btn" data-proj="1">
+                <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#9C9C95">02</span>
+                <span style="font-size:13px;font-weight:500">Chorlton terrace</span>
+              </button>
+              <button type="button" class="ba-project-btn" data-proj="2">
+                <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#9C9C95">03</span>
+                <span style="font-size:13px;font-weight:500">Stockport detached</span>
+              </button>
+              <button type="button" class="ba-project-btn" data-proj="3">
+                <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#9C9C95">04</span>
+                <span style="font-size:13px;font-weight:500">Sale semi</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section data-reveal aria-labelledby="test-h" class="section-padding bg-gray border-top">
+      <div class="container">
+        <div style="display:flex;flex-wrap:wrap;gap:14px 28px;align-items:flex-end;justify-content:space-between;margin-bottom:28px">
+          <div>
+            <span class="section-label">Customer feedback</span>
+            <h2 id="test-h" class="heading-h2">Authentic Feedback from Homeowners Across the North West.</h2>
+          </div>
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#6B6B6B">Verified via Checkatrade &middot; 400+ reviews</span>
+        </div>
+        <div class="testimonials-grid">
+          <figure class="testimonial-card dark wide">
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:14px">
+              <span style="letter-spacing:.16em;font-size:13px;color:#FFFFFF">★★★★★</span>
+              <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#CDE4F7">Rear dormer</span>
+            </div>
+            <blockquote class="testimonial-quote">Two bedrooms and a bathroom out of a loft we used for storing boxes. The number on the quote was the number we paid.</blockquote>
+            <figcaption style="display:flex;align-items:center;gap:12px;margin-top:auto;padding-top:6px">
+              <span class="testimonial-avatar">S</span>
+              <span style="display:flex;flex-direction:column;line-height:1.35">
+                <span style="font-size:14px;font-weight:600;color:#FFFFFF">Sarah</span>
+                <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#CDE4F7">Bolton · Sept 2025</span>
+              </span>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial-card">
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:14px">
+              <span style="letter-spacing:.16em;font-size:13px;color:#1B75BC">★★★★★</span>
+              <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#6B6B6B">Hip-to-gable</span>
+            </div>
+            <blockquote class="testimonial-quote">Four weeks start to finish, and they swept up every evening — which mattered with a toddler in the house.</blockquote>
+            <figcaption style="display:flex;align-items:center;gap:12px;margin-top:auto;padding-top:6px">
+              <span class="testimonial-avatar">D</span>
+              <span style="display:flex;flex-direction:column;line-height:1.35">
+                <span style="font-size:14px;font-weight:600;color:#1A1A1A">Daniel</span>
+                <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#6B6B6B">Chorlton · June 2025</span>
+              </span>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial-card accent">
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:14px">
+              <span style="letter-spacing:.16em;font-size:13px;color:#1B75BC">★★★★★</span>
+              <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#6B6B6B">Velux</span>
+            </div>
+            <blockquote class="testimonial-quote">They talked us out of the bigger option because our roof did not need it.</blockquote>
+            <figcaption style="display:flex;align-items:center;gap:12px;margin-top:auto;padding-top:6px">
+              <span class="testimonial-avatar">P</span>
+              <span style="display:flex;flex-direction:column;line-height:1.35">
+                <span style="font-size:14px;font-weight:600;color:#1A1A1A">Priya</span>
+                <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#6B6B6B">Stockport · Mar 2025</span>
+              </span>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial-card">
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:14px">
+              <span style="letter-spacing:.16em;font-size:13px;color:#1B75BC">★★★★★</span>
+              <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#6B6B6B">Rear dormer</span>
+            </div>
+            <blockquote class="testimonial-quote">Building control paperwork was all handled. We never had to chase anybody once.</blockquote>
+            <figcaption style="display:flex;align-items:center;gap:12px;margin-top:auto;padding-top:6px">
+              <span class="testimonial-avatar">M</span>
+              <span style="display:flex;flex-direction:column;line-height:1.35">
+                <span style="font-size:14px;font-weight:600;color:#1A1A1A">Mark</span>
+                <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#6B6B6B">Preston · Jan 2025</span>
+              </span>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial-card">
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:14px">
+              <span style="letter-spacing:.16em;font-size:13px;color:#1B75BC">★★★★★</span>
+              <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#6B6B6B">Wrap around</span>
+            </div>
+            <blockquote class="testimonial-quote">The design advice sold it to my husband. Seeing the staircase landing layout made the whole thing real.</blockquote>
+            <figcaption style="display:flex;align-items:center;gap:12px;margin-top:auto;padding-top:6px">
+              <span class="testimonial-avatar">E</span>
+              <span style="display:flex;flex-direction:column;line-height:1.35">
+                <span style="font-size:14px;font-weight:600;color:#1A1A1A">Elaine</span>
+                <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#6B6B6B">Lytham · Nov 2024</span>
+              </span>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial-card accent">
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:14px">
+              <span style="letter-spacing:.16em;font-size:13px;color:#1B75BC">★★★★★</span>
+              <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#6B6B6B">Rear dormer</span>
+            </div>
+            <blockquote class="testimonial-quote">Our ridge height was right on 2.2m so we were worried about headroom. Their rear dormer layout gave us full standing height throughout.</blockquote>
+            <figcaption style="display:flex;align-items:center;gap:12px;margin-top:auto;padding-top:6px">
+              <span class="testimonial-avatar">J</span>
+              <span style="display:flex;flex-direction:column;line-height:1.35">
+                <span style="font-size:14px;font-weight:600;color:#1A1A1A">Joseph</span>
+                <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#6B6B6B">Bury · Aug 2025</span>
+              </span>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial-card">
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:14px">
+              <span style="letter-spacing:.16em;font-size:13px;color:#1B75BC">★★★★★</span>
+              <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#6B6B6B">Hip-end dormer</span>
+            </div>
+            <blockquote class="testimonial-quote">Second conversion we have had done in the family. Straight back to the same team, no hesitation.</blockquote>
+            <figcaption style="display:flex;align-items:center;gap:12px;margin-top:auto;padding-top:6px">
+              <span class="testimonial-avatar">N</span>
+              <span style="display:flex;flex-direction:column;line-height:1.35">
+                <span style="font-size:14px;font-weight:600;color:#1A1A1A">Nadia</span>
+                <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#6B6B6B">Didsbury · May 2025</span>
+              </span>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial-card">
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:14px">
+              <span style="letter-spacing:.16em;font-size:13px;color:#1B75BC">★★★★★</span>
+              <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#6B6B6B">Velux</span>
+            </div>
+            <blockquote class="testimonial-quote">Quiet, tidy, and they warned us the day the steels were coming so we could work elsewhere.</blockquote>
+            <figcaption style="display:flex;align-items:center;gap:12px;margin-top:auto;padding-top:6px">
+              <span class="testimonial-avatar">T</span>
+              <span style="display:flex;flex-direction:column;line-height:1.35">
+                <span style="font-size:14px;font-weight:600;color:#1A1A1A">Tom</span>
+                <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#6B6B6B">Warrington · Feb 2025</span>
+              </span>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial-card dark wide">
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:14px">
+              <span style="letter-spacing:.16em;font-size:13px;color:#FFFFFF">★★★★★</span>
+              <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#CDE4F7">Rear dormer</span>
+            </div>
+            <blockquote class="testimonial-quote">The valuation came back £62,000 higher than before the work. Best money we have spent on the house.</blockquote>
+            <figcaption style="display:flex;align-items:center;gap:12px;margin-top:auto;padding-top:6px">
+              <span class="testimonial-avatar">R</span>
+              <span style="display:flex;flex-direction:column;line-height:1.35">
+                <span style="font-size:14px;font-weight:600;color:#FFFFFF">Rachel</span>
+                <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#CDE4F7">Sale · Oct 2024</span>
+              </span>
+            </figcaption>
+          </figure>
+
+          <a href="https://www.checkatrade.com/trades/AnotherLevelLoftConversionsNw" target="_blank" rel="noopener noreferrer" class="testimonial-checkatrade-card" style="border:1px solid #1B75BC;border-radius:3px;padding:24px 22px 22px;display:flex;flex-direction:column;gap:14px;background:#F0F7FD;color:#1A1A1A;text-decoration:none;transition:background .2s">
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#135284">Checkatrade verified</span>
+            <span style="font-family:Newsreader,Georgia,serif;font-size:clamp(30px,3vw,38px);line-height:1;letter-spacing:-.02em">9.8 / 10</span>
+            <span style="font-size:14px;line-height:1.55;color:#4A4A45">Every review left by a customer whose conversion we finished. 400+ reviews and counting.</span>
+            <span style="margin-top:auto;padding-top:8px;font-size:14px;font-weight:600;color:#135284;border-bottom:1px solid #1B75BC;align-self:flex-start;padding-bottom:3px">Read them all</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Commitments & Guarantees (Replacing Pricing Friction) -->
+    <section id="guarantees" data-reveal aria-labelledby="guar-h" class="section-padding bg-dark">
+      <div class="container">
+        <div class="promise-header" style="display:flex;flex-wrap:wrap;gap:20px;align-items:flex-end;justify-content:space-between;margin-bottom:44px">
+          <div>
+            <span class="section-label-light">The Loft Conversions North Promise</span>
+            <h2 id="guar-h" class="heading-h2" style="color:#FFFFFF;max-width:24ch">Guaranteed Fixed Pricing with Zero Upfront Risk.</h2>
+          </div>
+          <p class="promise-header-desc" style="font-size:14px;line-height:1.6;color:#B8B8B0;margin:0;max-width:34ch">Every quote is a fixed-price written contract that never moves once signed. Staged payments on Building Control completion milestones.</p>
+        </div>
+        <div class="promise-cards-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1px;background:#2C2C29;border:1px solid #2C2C29">
+          <div class="promise-card" style="background:#1A1A1A;padding:28px 24px;display:flex;flex-direction:column;gap:12px">
+            <span class="promise-tag" style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#8ABFE5;letter-spacing:.12em;text-transform:uppercase">01 / Payments</span>
+            <span class="promise-title" style="font-family:Newsreader,Georgia,serif;font-size:clamp(22px,2.4vw,28px);line-height:1.2;color:#FFFFFF">Transparent Milestone Payments</span>
+            <p class="promise-desc" style="font-size:13.5px;line-height:1.65;color:#B8B8B0;margin:0">Fair staged payments tied directly to verified structural milestones as work is signed off by Building Control.</p>
+          </div>
+          <div class="promise-card" style="background:#1A1A1A;padding:28px 24px;display:flex;flex-direction:column;gap:12px">
+            <span class="promise-tag" style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#8ABFE5;letter-spacing:.12em;text-transform:uppercase">02 / Guarantee</span>
+            <span class="promise-title" style="font-family:Newsreader,Georgia,serif;font-size:clamp(22px,2.4vw,28px);line-height:1.2;color:#FFFFFF">6-Year Written Warranty</span>
+            <p class="promise-desc" style="font-size:13.5px;line-height:1.65;color:#B8B8B0;margin:0">Full structural warranty covering all timber frameworks, structural steelwork, and dormer envelopes.</p>
+          </div>
+          <div class="promise-card" style="background:#1A1A1A;padding:28px 24px;display:flex;flex-direction:column;gap:12px">
+            <span class="promise-tag" style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#8ABFE5;letter-spacing:.12em;text-transform:uppercase">03 / Craftsmanship</span>
+            <span class="promise-title" style="font-family:Newsreader,Georgia,serif;font-size:clamp(22px,2.4vw,28px);line-height:1.2;color:#FFFFFF">Dedicated Master Trades</span>
+            <p class="promise-desc" style="font-size:13.5px;line-height:1.65;color:#B8B8B0;margin:0">Experienced in-house master carpenters and certified tradesmen on site daily to maintain seamless quality.</p>
+          </div>
+          <div class="promise-card" style="background:#1A1A1A;padding:28px 24px;display:flex;flex-direction:column;gap:12px">
+            <span class="promise-tag" style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#8ABFE5;letter-spacing:.12em;text-transform:uppercase">04 / Compliance</span>
+            <span class="promise-title" style="font-family:Newsreader,Georgia,serif;font-size:clamp(22px,2.4vw,28px);line-height:1.2;color:#FFFFFF">Building Control Handled</span>
+            <p class="promise-desc" style="font-size:13.5px;line-height:1.65;color:#B8B8B0;margin:0">All structural calculations, council applications, and completion sign-offs fully managed.</p>
+          </div>
+        </div>
+        <!-- Creative Integrated CTA Banner (No harsh lines, pure architectural trust) -->
+        <div class="promise-cta-banner" style="margin-top:32px;background:linear-gradient(135deg,#0E1B2A 0%,#09131E 100%);border:1px solid rgba(27,117,188,0.3);border-radius:6px;padding:clamp(24px,3vw,36px);display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:24px;box-shadow:0 16px 40px -12px rgba(0,0,0,0.5)">
+          <div class="promise-cta-content" style="flex:1 1 360px;display:flex;flex-direction:column;gap:8px">
+            <span class="promise-cta-pill" style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#8ABFE5;letter-spacing:.12em;text-transform:uppercase;display:flex;align-items:center;gap:8px">
+              <span class="pulse-dot" style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#1B75BC"></span>
+              No obligations &middot; 100% Free Consultation
+            </span>
+            <h3 class="promise-cta-heading" style="font-family:Newsreader,Georgia,serif;font-size:clamp(22px,2.2vw,28px);font-weight:400;color:#FFFFFF;line-height:1.2;margin:0">
+              Ready to explore what's possible for your loft?
+            </h3>
+            <p class="promise-cta-sub" style="font-size:13.5px;line-height:1.55;color:#B8B8B0;margin:0">
+              Get an accurate fixed quote &amp; bespoke 3D layout from our senior surveyor — without paying a penny upfront.
+            </p>
+          </div>
+          <div class="promise-cta-action" style="display:flex;align-items:center">
+            <a href="#booking" data-open-booking class="btn-primary promise-cta-btn" style="background:#1B75BC;color:#FFFFFF !important;display:inline-flex;align-items:center;gap:10px;padding:16px 28px;font-size:15.5px;font-weight:600;border-radius:4px;box-shadow:0 8px 24px rgba(27,117,188,0.35);text-decoration:none;white-space:nowrap;transition:all .25s ease">
+              <span>Book Your Free Survey</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 41 Service Areas Component -->
+    <?php include 'includes/service-areas.php'; ?>
+
+    <!-- FAQ Accordion Section -->
+    <section data-reveal aria-labelledby="faq-h" class="section-padding bg-gray border-top">
+      <div class="container faq-layout">
+        <div class="faq-sticky-col">
+          <span class="section-label">Questions</span>
+          <h2 id="faq-h" class="heading-h2" style="margin:12px 0 18px;max-width:16ch">Straight Answers to the Questions Homeowners Ask Most.</h2>
+          <p style="font-size:16px;line-height:1.65;color:#4A4A45;margin:0 0 24px;max-width:38ch">Have specific queries about your property? Ask during your free survey &mdash; zero obligation, zero pressure.</p>
+          <div class="faq-action-btns" style="display:flex;flex-wrap:nowrap;gap:10px;align-items:center;margin-top:4px">
+            <a href="#booking" data-open-booking class="btn-primary" style="padding:12px 18px;font-size:14px;white-space:nowrap">Book Free Survey</a>
+            <a href="tel:01614100155" class="btn-secondary" style="padding:11px 16px;font-size:14px;white-space:nowrap">Ask us directly</a>
+          </div>
+        </div>
+        <div class="faq-container-box">
+          <div class="faq-wrap open">
+            <button type="button" class="faq-btn" aria-expanded="true">
+              <span class="faq-num">01</span>
+              <span class="faq-question">Will I need formal planning permission?</span>
+              <span class="faq-sign">–</span>
+            </button>
+            <div class="faq-answer">
+              <p>Usually not. Most conversions fall under permitted development, up to 50m³ for a detached or semi and 40m³ for a terrace. Conservation areas, listed buildings and designated land are the exceptions, and we tell you which applies at the survey.</p>
+            </div>
+          </div>
+
+          <div class="faq-wrap">
+            <button type="button" class="faq-btn" aria-expanded="false">
+              <span class="faq-num">02</span>
+              <span class="faq-question">What is the average construction timeline?</span>
+              <span class="faq-sign">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Four to six weeks for a Velux, eight to ten for a dormer or wrap around. Plans and approval run before that — typically two to four weeks from signing.</p>
+            </div>
+          </div>
+
+          <div class="faq-wrap">
+            <button type="button" class="faq-btn" aria-expanded="false">
+              <span class="faq-num">03</span>
+              <span class="faq-question">How much disruption should we expect inside the house?</span>
+              <span class="faq-sign">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>The loft is sealed off and the stairwell is only cut through late in the build. Scaffolding and a rear hoist keep most material out of the house entirely.</p>
+            </div>
+          </div>
+
+          <div class="faq-wrap">
+            <button type="button" class="faq-btn" aria-expanded="false">
+              <span class="faq-num">04</span>
+              <span class="faq-question">Can our family remain living in the house during the build?</span>
+              <span class="faq-sign">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>No, the works are carried out with minimum disturbance.</p>
+            </div>
+          </div>
+
+          <div class="faq-wrap">
+            <button type="button" class="faq-btn" aria-expanded="false">
+              <span class="faq-num">05</span>
+              <span class="faq-question">What happens if our existing attic headroom feels too low?</span>
+              <span class="faq-sign">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>2.2m from the ceiling joists to the underside of the ridge is the working minimum — 2.2m on modern trusses.</p>
+            </div>
+          </div>
+
+          <div class="faq-wrap">
+            <button type="button" class="faq-btn" aria-expanded="false">
+              <span class="faq-num">06</span>
+              <span class="faq-question">How are conversion costs calculated and guaranteed?</span>
+              <span class="faq-sign">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Velux conversions start at £24,000 and a wrap around at £55,000. After the survey you get one fixed written figure covering structure, staircase, insulation, plastering and building control.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Banner Section -->
+    <section data-reveal aria-labelledby="cta-h" class="section-padding bg-primary">
+      <div class="container final-cta-layout" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:clamp(32px,5vw,72px);align-items:center">
+        <div class="final-cta-left">
+          <span class="section-label-subtle">One free visit</span>
+          <h2 id="cta-h" class="heading-h1 final-cta-title" style="font-size:clamp(34px,5vw,60px);color:#FFFFFF;margin-top:14px">Find out what your loft is worth <em style="font-style:italic">before</em> you spend a penny.</h2>
+          <p class="final-cta-desc" style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#E5F2FC;max-width:42ch">Forty-five minutes in your house, expert layout advice, and one fixed price. Say no afterwards and it has cost you nothing.</p>
+          <div class="final-cta-btns" style="display:flex;flex-wrap:wrap;gap:14px;align-items:center">
+            <a href="#booking" data-open-booking class="btn-white final-cta-btn-book">Book Free Survey</a>
+            <a href="tel:01614100155" class="btn-outline-white final-cta-btn-call">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>Call 0161 4100155</span>
+            </a>
+          </div>
+        </div>
+        <div class="final-cta-card" style="background:#FFFFFF;color:#1A1A1A;border-radius:3px;padding:clamp(24px,3vw,34px)">
+          <span class="section-label">What happens next</span>
+          <ol class="final-cta-steps" style="list-style:none;margin:18px 0 0;padding:0;display:grid;gap:0">
+            <li class="final-cta-step" style="display:flex;gap:14px;align-items:flex-start;padding:16px 0;border-bottom:1px solid #EDEDE8">
+              <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#1B75BC;flex:0 0 26px;padding-top:4px">01</span>
+              <span style="display:flex;flex-direction:column;gap:4px">
+                <span style="font-size:16px;font-weight:600;line-height:1.3">The survey</span>
+                <span style="font-size:14px;line-height:1.6;color:#6B6B6B">Measurements, trusses, staircase options, your questions.</span>
+              </span>
+              <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#9C9C95;margin-left:auto;white-space:nowrap;padding-top:4px">45 min</span>
+            </li>
+            <li class="final-cta-step" style="display:flex;gap:14px;align-items:flex-start;padding:16px 0;border-bottom:1px solid #EDEDE8">
+              <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#1B75BC;flex:0 0 26px;padding-top:4px">02</span>
+              <span style="display:flex;flex-direction:column;gap:4px">
+                <span style="font-size:16px;font-weight:600;line-height:1.3">Survey & fixed quote</span>
+                <span style="font-size:14px;line-height:1.6;color:#6B6B6B">A detailed written proposal with one guaranteed fixed price.</span>
+              </span>
+              <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#9C9C95;margin-left:auto;white-space:nowrap;padding-top:4px">A few days</span>
+            </li>
+            <li class="final-cta-step" style="display:flex;gap:14px;align-items:flex-start;padding:16px 0">
+              <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#1B75BC;flex:0 0 26px;padding-top:4px">03</span>
+              <span style="display:flex;flex-direction:column;gap:4px">
+                <span style="font-size:16px;font-weight:600;line-height:1.3">You decide</span>
+                <span style="font-size:14px;line-height:1.6;color:#6B6B6B">Amend it, sit on it, or book a start date. No chasing from us.</span>
+              </span>
+              <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#9C9C95;margin-left:auto;white-space:nowrap;padding-top:4px">Your call</span>
+            </li>
+          </ol>
+          <p class="final-cta-card-foot" style="margin:20px 0 0;font-size:13px;line-height:1.6;color:#6B6B6B">No obligation, 100% free consultation, and zero pressure to proceed whatever you decide.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <?php include 'includes/booking-modal.php'; ?>
+  <?php include 'includes/footer.php'; ?>
