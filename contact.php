@@ -61,9 +61,9 @@ include 'includes/header.php';
               <span>Book Free Survey</span>
               <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
             </a>
-            <a href="tel:01614100155" class="btn-secondary hero-btn">
+            <a href="tel:08000862744" class="btn-secondary hero-btn">
               <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-              <span>Call 0161 4100155</span>
+              <span>Call 0800 0862744</span>
             </a>
           </div>
 
@@ -99,14 +99,14 @@ include 'includes/header.php';
           </div>
 
           <!-- Freephone Line -->
-          <a href="tel:01614100155" class="contact-dial-item">
+          <a href="tel:08000862744" class="contact-dial-item">
             <div style="display:flex;align-items:center;gap:12px">
               <span style="width:36px;height:36px;border-radius:8px;background:#F0F7FD;border:1px solid #CDE4F7;display:flex;align-items:center;justify-content:center;color:#135284;flex-shrink:0">
                 <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
               </span>
               <div>
                 <span style="font-family:var(--font-sans);font-size:11px;font-weight:700;color:#1B75BC;text-transform:uppercase;letter-spacing:.05em;display:block">Toll-Free UK Helpline</span>
-                <strong style="font-family:var(--font-sans);font-size:16.5px;color:#1A1A1A;font-weight:700">0161 4100155</strong>
+                <strong style="font-family:var(--font-sans);font-size:16.5px;color:#1A1A1A;font-weight:700">0800 0862744</strong>
               </div>
             </div>
             <span style="color:#1B75BC;font-weight:bold;font-size:16px">&rarr;</span>
@@ -127,14 +127,14 @@ include 'includes/header.php';
           </a>
 
           <!-- Preston Line -->
-          <a href="tel:01614100155" class="contact-dial-item">
+          <a href="tel:01772393005" class="contact-dial-item">
             <div style="display:flex;align-items:center;gap:12px">
               <span style="width:36px;height:36px;border-radius:8px;background:#F0F7FD;border:1px solid #CDE4F7;display:flex;align-items:center;justify-content:center;color:#135284;flex-shrink:0">
                 <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
               </span>
               <div>
                 <span style="font-family:var(--font-sans);font-size:11px;font-weight:700;color:#1B75BC;text-transform:uppercase;letter-spacing:.05em;display:block">Lancashire Head Office</span>
-                <strong style="font-family:var(--font-sans);font-size:16.5px;color:#1A1A1A;font-weight:700">0161 4100155</strong>
+                <strong style="font-family:var(--font-sans);font-size:16.5px;color:#1A1A1A;font-weight:700">01772 393005</strong>
               </div>
             </div>
             <span style="color:#1B75BC;font-weight:bold;font-size:16px">&rarr;</span>
@@ -248,9 +248,9 @@ include 'includes/header.php';
           <p style="font-size:18px;line-height:1.6;margin:20px 0 30px;color:#E5F2FC;max-width:42ch">Forty-five minutes, expert layout advice, one fixed price. Say no afterwards and it has cost you nothing.</p>
           <div class="cta-btn-group">
             <a href="#booking" data-open-booking class="btn-white">Book Free Survey</a>
-            <a href="tel:01614100155" class="btn-outline-white">
+            <a href="tel:08000862744" class="btn-outline-white">
               <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-              Call 0161 4100155
+              Call 0800 0862744
             </a>
           </div>
         </div>

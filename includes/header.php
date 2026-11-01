@@ -10,7 +10,7 @@ if (!isset($activePage)) {
     $activePage = "";
 }
 if (!isset($phone)) {
-    $phone = "0161 4100155";
+    $phone = "0800 0862744";
 }
 $telHref = "tel:" . preg_replace('/\s+/', '', $phone);
 $homeHref = "index.php";

@@ -95,7 +95,7 @@ if (!function_exists('getTownSlug')) {
 
     <div class="areas-footer" style="display:flex;flex-wrap:wrap;gap:16px 32px;align-items:center;justify-content:space-between;border-top:1px solid #E4E4DF;padding-top:24px">
       <p class="areas-address" style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#6B6B6B;margin:0">Central Manchester & Regional North Office, Greater Manchester & Lancashire</p>
-      <p class="areas-unlisted" style="font-size:15px;margin:0;color:#4A4A45">Town not listed? <a href="tel:01614100155" style="font-weight:600;color:#135284;border-bottom:1px solid #1B75BC;text-decoration:none">Call 0161 4100155</a> &mdash; we travel further for larger jobs.</p>
+      <p class="areas-unlisted" style="font-size:15px;margin:0;color:#4A4A45">Town not listed? <a href="tel:08000862744" style="font-weight:600;color:#135284;border-bottom:1px solid #1B75BC;text-decoration:none">Call 0800 0862744</a> &mdash; we travel further for larger jobs.</p>
     </div>
   </div>
 </section>

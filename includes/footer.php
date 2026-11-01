@@ -35,8 +35,9 @@ $badges = ['VELUX Certified', 'Gas Safe', 'NIC EIC', 'Checkatrade'];
           <img src="images/logo.png" alt="Loft Conversions North" style="height:44px;width:auto;display:block;max-width:220px;object-fit:contain">
         </a>
         <p style="margin:0 0 12px;font-size:14px;line-height:1.7;color:#B8B8B0">Regional Northern Loft Specialists across Greater Manchester, Lancashire &amp; Cheshire</p>
-        <a href="tel:01614100155" class="footer-phone-main" style="color:#29ABE2">0161 4100155</a>
-        <div style="font-size:13px;color:#8ABFE5;margin-top:4px">Central Manchester &bull; 0161 4100155</div>
+        <a href="tel:08000862744" class="footer-phone-main" style="color:#29ABE2;display:block;margin-top:8px">0800 0862744</a>
+        <a href="tel:01614100155" class="footer-phone-sub" style="display:block;margin-top:4px;color:#8ABFE5">Manchester 0161 4100155</a>
+        <a href="tel:01772393005" class="footer-phone-sub" style="display:block;margin-top:4px;color:#8ABFE5">Preston 01772 393005</a>
       </div>
 
       <nav aria-label="Conversion types" class="footer-nav">
@@ -106,7 +107,7 @@ $badges = ['VELUX Certified', 'Gas Safe', 'NIC EIC', 'Checkatrade'];
   <!-- Fixed Mobile Sticky Dock -->
   <div class="mobile-sticky-dock">
     <div class="mobile-sticky-dock-inner">
-      <a href="tel:01614100155" class="dock-btn dock-call" aria-label="Call 0161 4100155">
+      <a href="tel:08000862744" class="dock-btn dock-call" aria-label="Call 0800 0862744">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
         <span>Call</span>
       </a>
