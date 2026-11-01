@@ -255,107 +255,92 @@ include 'includes/header.php';
             <p class="milestone-desc">The leading regional loft specialist across 41 towns.</p>
           </div>
         </div>
-      </div>
-    </section>
-
-    <!-- How We Work (Core Standards) -->
+       <!-- How We Work (Core Standards) -->
     <section data-reveal aria-labelledby="prin-h" class="section-padding-sm bg-gray border-bottom">
       <div class="container">
         <div style="display:flex;flex-wrap:wrap;gap:18px 48px;align-items:flex-end;justify-content:space-between;margin-bottom:36px">
           <div style="flex:2 1 420px">
             <span class="section-label">How we work</span>
-            <h2 id="prin-h" class="heading-h2" style="font-size:clamp(28px,4vw,44px);margin:12px 0 0;max-width:26ch">Four Core Standards That Guide Every Loft Conversion We Construct.</h2>
+            <h2 id="prin-h" class="heading-h2" style="font-size:clamp(28px,4vw,44px);margin:12px 0 0;max-width:26ch">The Core Standards That Guide Every Loft Conversion We Construct.</h2>
           </div>
           <p style="flex:1 1 260px;max-width:34ch;font-size:15px;line-height:1.6;color:#6B6B6B;margin:0">Over 80% of our new conversions come from direct neighbour recommendations.</p>
         </div>
 
-        <div class="principles-grid">
+        <div class="principles-grid" style="grid-template-columns:repeat(auto-fit, minmax(min(100%, 460px), 1fr));gap:28px">
           
-          <!-- Principle 01 -->
-          <div class="principle-card" style="background:#FFFFFF;border:1px solid #E2E8F0;border-radius:10px;padding:28px 24px 24px;display:flex;flex-direction:column;gap:14px;position:relative;overflow:hidden;box-shadow:0 4px 18px -4px rgba(24,34,22,0.05),0 1px 3px rgba(0,0,0,0.02);transition:border-color .25s ease,box-shadow .25s ease" onmouseover="this.style.borderColor='#1B75BC';this.style.boxShadow='0 12px 28px -6px rgba(19,82,132,0.16),0 2px 6px rgba(0,0,0,0.04)';this.querySelector('.prin-ghost').style.color='#E5F2FC';this.querySelector('.prin-icon-wrap').style.backgroundColor='#F0F7FD'" onmouseout="this.style.borderColor='#E2E8F0';this.style.boxShadow='0 4px 18px -4px rgba(24,34,22,0.05),0 1px 3px rgba(0,0,0,0.02)';this.querySelector('.prin-ghost').style.color='#F1F4EE';this.querySelector('.prin-icon-wrap').style.backgroundColor='#F0F7FD'">
-            <div class="prin-ghost" style="position:absolute;top:8px;right:16px;font-family:var(--font-serif);font-size:52px;font-weight:400;color:#F1F4EE;line-height:1;user-select:none;pointer-events:none;transition:color .25s ease">01</div>
+          <!-- Standard 01: Fixed Contract Pricing -->
+          <div class="principle-card" style="background:#FFFFFF;border:1px solid #E2E8F0;border-radius:12px;padding:clamp(24px,3vw,36px) clamp(20px,2.5vw,32px);display:flex;flex-direction:column;position:relative;overflow:hidden;box-shadow:0 4px 20px -4px rgba(12,59,97,0.06),0 1px 3px rgba(0,0,0,0.02);transition:border-color .25s ease,box-shadow .25s ease" onmouseover="this.style.borderColor='#1B75BC';this.style.boxShadow='0 12px 28px -6px rgba(19,82,132,0.16),0 2px 6px rgba(0,0,0,0.04)';this.querySelector('.prin-ghost').style.color='#E5F2FC';this.querySelector('.prin-icon-wrap').style.backgroundColor='#F0F7FD'" onmouseout="this.style.borderColor='#E2E8F0';this.style.boxShadow='0 4px 20px -4px rgba(12,59,97,0.06),0 1px 3px rgba(0,0,0,0.02)';this.querySelector('.prin-ghost').style.color='#F1F4EE';this.querySelector('.prin-icon-wrap').style.backgroundColor='#F0F7FD'">
+            <div class="prin-ghost" style="position:absolute;top:8px;right:20px;font-family:var(--font-serif);font-size:68px;font-weight:400;color:#F1F4EE;line-height:1;user-select:none;pointer-events:none;transition:color .25s ease">01</div>
             
-            <div style="display:flex;align-items:center;justify-content:space-between;position:relative;z-index:1">
-              <div class="prin-icon-wrap" style="width:48px;height:48px;border-radius:10px;background:#F0F7FD;border:1px solid #CDE4F7;display:flex;align-items:center;justify-content:center;color:#0C3B61;transition:background-color .25s ease">
-                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+            <div style="display:flex;align-items:center;justify-content:space-between;position:relative;z-index:1;margin-bottom:18px">
+              <div class="prin-icon-wrap" style="width:52px;height:52px;border-radius:10px;background:#F0F7FD;border:1px solid #CDE4F7;display:flex;align-items:center;justify-content:center;color:#0C3B61;transition:background-color .25s ease">
+                <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
               </div>
-              <span style="font-family:var(--font-sans);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#135284;background:#F0F7FD;padding:4px 10px;border-radius:20px;border:1px solid #CDE4F7">Step 01</span>
+              <span style="font-family:var(--font-sans);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#135284;background:#F0F7FD;padding:5px 12px;border-radius:20px;border:1px solid #CDE4F7">Standard 01</span>
             </div>
 
-            <div style="position:relative;z-index:1;display:flex;flex-direction:column;gap:8px">
-              <h3 style="font-family:var(--font-serif);font-size:21px;line-height:1.25;font-weight:400;color:#1A1A1A;margin:0;letter-spacing:-.01em">100% Guaranteed Fixed Contract Pricing</h3>
-              <p style="font-family:var(--font-sans);font-size:14px;line-height:1.65;color:#555550;margin:0">The figure on your survey proposal is the exact figure on your completion invoice. No open-ended estimates, and no mid-build surprises.</p>
+            <div style="position:relative;z-index:1;display:flex;flex-direction:column;gap:10px">
+              <h3 style="font-family:var(--font-serif);font-size:clamp(22px,2.2vw,26px);line-height:1.25;font-weight:400;color:#1A1A1A;margin:0;letter-spacing:-.01em">100% Guaranteed Fixed Contract Pricing</h3>
+              <p style="font-family:var(--font-sans);font-size:15px;line-height:1.65;color:#555550;margin:0">The figure on your survey proposal is the exact figure on your completion invoice. We eliminate open-ended estimates and ensure total budgetary certainty from day one.</p>
             </div>
 
-            <div style="margin-top:auto;padding-top:14px;border-top:1px solid #F0F0EB;display:flex;align-items:center;gap:7px;font-family:var(--font-sans);font-size:12.5px;font-weight:600;color:#0C3B61;position:relative;z-index:1">
-              <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="3 8.5 6.5 12 13 4"></polyline></svg>
-              <span>No hidden extras guaranteed</span>
+            <div style="display:flex;flex-direction:column;gap:10px;margin:20px 0;padding:16px 18px;background:#F8FAFC;border:1px solid #EDEDE8;border-radius:8px;position:relative;z-index:1">
+              <div style="display:flex;align-items:flex-start;gap:10px;font-family:var(--font-sans);font-size:13.5px;color:#2D3748;line-height:1.5">
+                <svg viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="#0C3B61" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-top:2px" aria-hidden="true"><polyline points="3 8.5 6.5 12 13 4"></polyline></svg>
+                <span><strong>Locked-In Price:</strong> Formal contract price agreed prior to build commencement.</span>
+              </div>
+              <div style="display:flex;align-items:flex-start;gap:10px;font-family:var(--font-sans);font-size:13.5px;color:#2D3748;line-height:1.5">
+                <svg viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="#0C3B61" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-top:2px" aria-hidden="true"><polyline points="3 8.5 6.5 12 13 4"></polyline></svg>
+                <span><strong>Zero Hidden Extras:</strong> Structural timbers, steels, architectural plans, and sign-offs included.</span>
+              </div>
+              <div style="display:flex;align-items:flex-start;gap:10px;font-family:var(--font-sans);font-size:13.5px;color:#2D3748;line-height:1.5">
+                <svg viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="#0C3B61" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-top:2px" aria-hidden="true"><polyline points="3 8.5 6.5 12 13 4"></polyline></svg>
+                <span><strong>Milestone Invoicing:</strong> Staged payments released only as physical build milestones are inspected.</span>
+              </div>
+            </div>
+
+            <div style="margin-top:auto;padding:12px 16px;background:#F0F7FD;border:1px solid #CDE4F7;border-radius:8px;display:flex;align-items:center;justify-content:space-between;gap:8px;font-family:var(--font-sans);font-size:12.5px;font-weight:700;color:#0C3B61;position:relative;z-index:1">
+              <span>✓ 100% Price Lock Guarantee</span>
+              <span style="color:#1B75BC">•</span>
+              <span>No Mid-Build Surprises</span>
             </div>
           </div>
 
-          <!-- Principle 02 -->
-          <div class="principle-card" style="background:#FFFFFF;border:1px solid #E2E8F0;border-radius:10px;padding:28px 24px 24px;display:flex;flex-direction:column;gap:14px;position:relative;overflow:hidden;box-shadow:0 4px 18px -4px rgba(24,34,22,0.05),0 1px 3px rgba(0,0,0,0.02);transition:border-color .25s ease,box-shadow .25s ease" onmouseover="this.style.borderColor='#1B75BC';this.style.boxShadow='0 12px 28px -6px rgba(19,82,132,0.16),0 2px 6px rgba(0,0,0,0.04)';this.querySelector('.prin-ghost').style.color='#E5F2FC';this.querySelector('.prin-icon-wrap').style.backgroundColor='#F0F7FD'" onmouseout="this.style.borderColor='#E2E8F0';this.style.boxShadow='0 4px 18px -4px rgba(24,34,22,0.05),0 1px 3px rgba(0,0,0,0.02)';this.querySelector('.prin-ghost').style.color='#F1F4EE';this.querySelector('.prin-icon-wrap').style.backgroundColor='#F0F7FD'">
-            <div class="prin-ghost" style="position:absolute;top:8px;right:16px;font-family:var(--font-serif);font-size:52px;font-weight:400;color:#F1F4EE;line-height:1;user-select:none;pointer-events:none;transition:color .25s ease">02</div>
+          <!-- Standard 02: Building Regulations & Council Sign-Off -->
+          <div class="principle-card" style="background:#FFFFFF;border:1px solid #E2E8F0;border-radius:12px;padding:clamp(24px,3vw,36px) clamp(20px,2.5vw,32px);display:flex;flex-direction:column;position:relative;overflow:hidden;box-shadow:0 4px 20px -4px rgba(12,59,97,0.06),0 1px 3px rgba(0,0,0,0.02);transition:border-color .25s ease,box-shadow .25s ease" onmouseover="this.style.borderColor='#1B75BC';this.style.boxShadow='0 12px 28px -6px rgba(19,82,132,0.16),0 2px 6px rgba(0,0,0,0.04)';this.querySelector('.prin-ghost').style.color='#E5F2FC';this.querySelector('.prin-icon-wrap').style.backgroundColor='#F0F7FD'" onmouseout="this.style.borderColor='#E2E8F0';this.style.boxShadow='0 4px 20px -4px rgba(12,59,97,0.06),0 1px 3px rgba(0,0,0,0.02)';this.querySelector('.prin-ghost').style.color='#F1F4EE';this.querySelector('.prin-icon-wrap').style.backgroundColor='#F0F7FD'">
+            <div class="prin-ghost" style="position:absolute;top:8px;right:20px;font-family:var(--font-serif);font-size:68px;font-weight:400;color:#F1F4EE;line-height:1;user-select:none;pointer-events:none;transition:color .25s ease">02</div>
             
-            <div style="display:flex;align-items:center;justify-content:space-between;position:relative;z-index:1">
-              <div class="prin-icon-wrap" style="width:48px;height:48px;border-radius:10px;background:#F0F7FD;border:1px solid #CDE4F7;display:flex;align-items:center;justify-content:center;color:#0C3B61;transition:background-color .25s ease">
-                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+            <div style="display:flex;align-items:center;justify-content:space-between;position:relative;z-index:1;margin-bottom:18px">
+              <div class="prin-icon-wrap" style="width:52px;height:52px;border-radius:10px;background:#F0F7FD;border:1px solid #CDE4F7;display:flex;align-items:center;justify-content:center;color:#0C3B61;transition:background-color .25s ease">
+                <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><path d="M9 12l2 2 4-4"></path></svg>
               </div>
-              <span style="font-family:var(--font-sans);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#135284;background:#F0F7FD;padding:4px 10px;border-radius:20px;border:1px solid #CDE4F7">Step 02</span>
+              <span style="font-family:var(--font-sans);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#135284;background:#F0F7FD;padding:5px 12px;border-radius:20px;border:1px solid #CDE4F7">Standard 02</span>
             </div>
 
-            <div style="position:relative;z-index:1;display:flex;flex-direction:column;gap:8px">
-              <h3 style="font-family:var(--font-serif);font-size:21px;line-height:1.25;font-weight:400;color:#1A1A1A;margin:0;letter-spacing:-.01em">Dedicated Employed Trades & Master Carpenters</h3>
-              <p style="font-family:var(--font-sans);font-size:14px;line-height:1.65;color:#555550;margin:0">The joiners who strip the roof on day one are the same craftsmen who hang your doors at handover. No unknown rotating subbies.</p>
+            <div style="position:relative;z-index:1;display:flex;flex-direction:column;gap:10px">
+              <h3 style="font-family:var(--font-serif);font-size:clamp(22px,2.2vw,26px);line-height:1.25;font-weight:400;color:#1A1A1A;margin:0;letter-spacing:-.01em">End-to-End Building Regulations & Council Sign-Off</h3>
+              <p style="font-family:var(--font-sans);font-size:15px;line-height:1.65;color:#555550;margin:0">Complete management of all statutory compliance from initial structural calculations through to final on-site Building Control inspections and certificate delivery.</p>
             </div>
 
-            <div style="margin-top:auto;padding-top:14px;border-top:1px solid #F0F0EB;display:flex;align-items:center;gap:7px;font-family:var(--font-sans);font-size:12.5px;font-weight:600;color:#0C3B61;position:relative;z-index:1">
-              <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="3 8.5 6.5 12 13 4"></polyline></svg>
-              <span>100% employed craftsmen</span>
-            </div>
-          </div>
-
-          <!-- Principle 03 -->
-          <div class="principle-card" style="background:#FFFFFF;border:1px solid #E2E8F0;border-radius:10px;padding:28px 24px 24px;display:flex;flex-direction:column;gap:14px;position:relative;overflow:hidden;box-shadow:0 4px 18px -4px rgba(24,34,22,0.05),0 1px 3px rgba(0,0,0,0.02);transition:border-color .25s ease,box-shadow .25s ease" onmouseover="this.style.borderColor='#1B75BC';this.style.boxShadow='0 12px 28px -6px rgba(19,82,132,0.16),0 2px 6px rgba(0,0,0,0.04)';this.querySelector('.prin-ghost').style.color='#E5F2FC';this.querySelector('.prin-icon-wrap').style.backgroundColor='#F0F7FD'" onmouseout="this.style.borderColor='#E2E8F0';this.style.boxShadow='0 4px 18px -4px rgba(24,34,22,0.05),0 1px 3px rgba(0,0,0,0.02)';this.querySelector('.prin-ghost').style.color='#F1F4EE';this.querySelector('.prin-icon-wrap').style.backgroundColor='#F0F7FD'">
-            <div class="prin-ghost" style="position:absolute;top:8px;right:16px;font-family:var(--font-serif);font-size:52px;font-weight:400;color:#F1F4EE;line-height:1;user-select:none;pointer-events:none;transition:color .25s ease">03</div>
-            
-            <div style="display:flex;align-items:center;justify-content:space-between;position:relative;z-index:1">
-              <div class="prin-icon-wrap" style="width:48px;height:48px;border-radius:10px;background:#F0F7FD;border:1px solid #CDE4F7;display:flex;align-items:center;justify-content:center;color:#0C3B61;transition:background-color .25s ease">
-                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><path d="M9 12l2 2 4-4"></path></svg>
+            <div style="display:flex;flex-direction:column;gap:10px;margin:20px 0;padding:16px 18px;background:#F8FAFC;border:1px solid #EDEDE8;border-radius:8px;position:relative;z-index:1">
+              <div style="display:flex;align-items:flex-start;gap:10px;font-family:var(--font-sans);font-size:13.5px;color:#2D3748;line-height:1.5">
+                <svg viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="#0C3B61" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-top:2px" aria-hidden="true"><polyline points="3 8.5 6.5 12 13 4"></polyline></svg>
+                <span><strong>Calculations Pack:</strong> Signed structural engineer calculations confirming load bearing specs.</span>
               </div>
-              <span style="font-family:var(--font-sans);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#135284;background:#F0F7FD;padding:4px 10px;border-radius:20px;border:1px solid #CDE4F7">Step 03</span>
-            </div>
-
-            <div style="position:relative;z-index:1;display:flex;flex-direction:column;gap:8px">
-              <h3 style="font-family:var(--font-serif);font-size:21px;line-height:1.25;font-weight:400;color:#1A1A1A;margin:0;letter-spacing:-.01em">End-to-End Building Regulations & Council Sign-Off</h3>
-              <p style="font-family:var(--font-sans);font-size:14px;line-height:1.65;color:#555550;margin:0">Structural engineer calculations, Building Control submissions, architectural drawings and official completion sign-off are fully managed.</p>
-            </div>
-
-            <div style="margin-top:auto;padding-top:14px;border-top:1px solid #F0F0EB;display:flex;align-items:center;gap:7px;font-family:var(--font-sans);font-size:12.5px;font-weight:600;color:#0C3B61;position:relative;z-index:1">
-              <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="3 8.5 6.5 12 13 4"></polyline></svg>
-              <span>Full Building Control sign-off</span>
-            </div>
-          </div>
-
-          <!-- Principle 04 -->
-          <div class="principle-card" style="background:#FFFFFF;border:1px solid #E2E8F0;border-radius:10px;padding:28px 24px 24px;display:flex;flex-direction:column;gap:14px;position:relative;overflow:hidden;box-shadow:0 4px 18px -4px rgba(24,34,22,0.05),0 1px 3px rgba(0,0,0,0.02);transition:border-color .25s ease,box-shadow .25s ease" onmouseover="this.style.borderColor='#1B75BC';this.style.boxShadow='0 12px 28px -6px rgba(19,82,132,0.16),0 2px 6px rgba(0,0,0,0.04)';this.querySelector('.prin-ghost').style.color='#E5F2FC';this.querySelector('.prin-icon-wrap').style.backgroundColor='#F0F7FD'" onmouseout="this.style.borderColor='#E2E8F0';this.style.boxShadow='0 4px 18px -4px rgba(24,34,22,0.05),0 1px 3px rgba(0,0,0,0.02)';this.querySelector('.prin-ghost').style.color='#F1F4EE';this.querySelector('.prin-icon-wrap').style.backgroundColor='#F0F7FD'">
-            <div class="prin-ghost" style="position:absolute;top:8px;right:16px;font-family:var(--font-serif);font-size:52px;font-weight:400;color:#F1F4EE;line-height:1;user-select:none;pointer-events:none;transition:color .25s ease">04</div>
-            
-            <div style="display:flex;align-items:center;justify-content:space-between;position:relative;z-index:1">
-              <div class="prin-icon-wrap" style="width:48px;height:48px;border-radius:10px;background:#F0F7FD;border:1px solid #CDE4F7;display:flex;align-items:center;justify-content:center;color:#0C3B61;transition:background-color .25s ease">
-                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+              <div style="display:flex;align-items:flex-start;gap:10px;font-family:var(--font-sans);font-size:13.5px;color:#2D3748;line-height:1.5">
+                <svg viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="#0C3B61" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-top:2px" aria-hidden="true"><polyline points="3 8.5 6.5 12 13 4"></polyline></svg>
+                <span><strong>Council Liaison:</strong> All Building Control notices submitted and officer walk-throughs hosted by us.</span>
               </div>
-              <span style="font-family:var(--font-sans);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#135284;background:#F0F7FD;padding:4px 10px;border-radius:20px;border:1px solid #CDE4F7">Step 04</span>
+              <div style="display:flex;align-items:flex-start;gap:10px;font-family:var(--font-sans);font-size:13.5px;color:#2D3748;line-height:1.5">
+                <svg viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="#0C3B61" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-top:2px" aria-hidden="true"><polyline points="3 8.5 6.5 12 13 4"></polyline></svg>
+                <span><strong>Official Completion Certificate:</strong> Essential documentation issued for your property deeds.</span>
+              </div>
             </div>
 
-            <div style="position:relative;z-index:1;display:flex;flex-direction:column;gap:8px">
-              <h3 style="font-family:var(--font-serif);font-size:21px;line-height:1.25;font-weight:400;color:#1A1A1A;margin:0;letter-spacing:-.01em">Weather-Tight Scaffold Access & Zero Home Disruption</h3>
-              <p style="font-family:var(--font-sans);font-size:14px;line-height:1.65;color:#555550;margin:0">Loft access is sealed, heavy materials enter externally via rear scaffold hoist, and the work area is thoroughly cleaned down every single evening.</p>
-            </div>
-
-            <div style="margin-top:auto;padding-top:14px;border-top:1px solid #F0F0EB;display:flex;align-items:center;gap:7px;font-family:var(--font-sans);font-size:12.5px;font-weight:600;color:#0C3B61;position:relative;z-index:1">
-              <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="3 8.5 6.5 12 13 4"></polyline></svg>
-              <span>External scaffold hoist access</span>
+            <div style="margin-top:auto;padding:12px 16px;background:#F0F7FD;border:1px solid #CDE4F7;border-radius:8px;display:flex;align-items:center;justify-content:space-between;gap:8px;font-family:var(--font-sans);font-size:12.5px;font-weight:700;color:#0C3B61;position:relative;z-index:1">
+              <span>✓ Full Council Sign-Off</span>
+              <span style="color:#1B75BC">•</span>
+              <span>Official Completion Cert</span>
             </div>
           </div>
 
