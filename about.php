@@ -256,7 +256,7 @@ include 'includes/header.php';
           </div>
         </div>
        <!-- How We Work (Core Standards) -->
-    <section data-reveal aria-labelledby="prin-h" class="section-padding-sm bg-gray border-bottom">
+    <section data-reveal aria-labelledby="prin-h" class="section-padding-sm bg-white border-bottom">
       <div class="container">
         <div style="display:flex;flex-wrap:wrap;gap:18px 48px;align-items:flex-end;justify-content:space-between;margin-bottom:36px">
           <div style="flex:2 1 420px">
@@ -269,7 +269,7 @@ include 'includes/header.php';
         <div class="principles-grid" style="grid-template-columns:repeat(auto-fit, minmax(min(100%, 460px), 1fr));gap:28px">
           
           <!-- Standard 01: Fixed Contract Pricing -->
-          <div class="principle-card" style="background:#FFFFFF;border:1px solid #E2E8F0;border-radius:12px;padding:clamp(24px,3vw,36px) clamp(20px,2.5vw,32px);display:flex;flex-direction:column;position:relative;overflow:hidden;box-shadow:0 4px 20px -4px rgba(12,59,97,0.06),0 1px 3px rgba(0,0,0,0.02);transition:border-color .25s ease,box-shadow .25s ease" onmouseover="this.style.borderColor='#1B75BC';this.style.boxShadow='0 12px 28px -6px rgba(19,82,132,0.16),0 2px 6px rgba(0,0,0,0.04)';this.querySelector('.prin-ghost').style.color='#E5F2FC';this.querySelector('.prin-icon-wrap').style.backgroundColor='#F0F7FD'" onmouseout="this.style.borderColor='#E2E8F0';this.style.boxShadow='0 4px 20px -4px rgba(12,59,97,0.06),0 1px 3px rgba(0,0,0,0.02)';this.querySelector('.prin-ghost').style.color='#F1F4EE';this.querySelector('.prin-icon-wrap').style.backgroundColor='#F0F7FD'">
+          <div class="principle-card" style="background:#FFFFFF;border:1px solid #E2E8F0;border-radius:12px;padding:clamp(26px,3vw,38px) clamp(22px,2.5vw,34px);display:flex;flex-direction:column;position:relative;overflow:hidden;box-shadow:0 4px 20px -4px rgba(12,59,97,0.06),0 1px 3px rgba(0,0,0,0.02);transition:border-color .25s ease,box-shadow .25s ease" onmouseover="this.style.borderColor='#1B75BC';this.style.boxShadow='0 12px 28px -6px rgba(19,82,132,0.16),0 2px 6px rgba(0,0,0,0.04)';this.querySelector('.prin-ghost').style.color='#E5F2FC';this.querySelector('.prin-icon-wrap').style.backgroundColor='#F0F7FD'" onmouseout="this.style.borderColor='#E2E8F0';this.style.boxShadow='0 4px 20px -4px rgba(12,59,97,0.06),0 1px 3px rgba(0,0,0,0.02)';this.querySelector('.prin-ghost').style.color='#F1F4EE';this.querySelector('.prin-icon-wrap').style.backgroundColor='#F0F7FD'">
             <div class="prin-ghost" style="position:absolute;top:8px;right:20px;font-family:var(--font-serif);font-size:68px;font-weight:400;color:#F1F4EE;line-height:1;user-select:none;pointer-events:none;transition:color .25s ease">01</div>
             
             <div style="display:flex;align-items:center;justify-content:space-between;position:relative;z-index:1;margin-bottom:18px">
@@ -284,22 +284,22 @@ include 'includes/header.php';
               <p style="font-family:var(--font-sans);font-size:15px;line-height:1.65;color:#555550;margin:0">The figure on your survey proposal is the exact figure on your completion invoice. We eliminate open-ended estimates and ensure total budgetary certainty from day one.</p>
             </div>
 
-            <div style="display:flex;flex-direction:column;gap:10px;margin:20px 0;padding:16px 18px;background:#F8FAFC;border:1px solid #EDEDE8;border-radius:8px;position:relative;z-index:1">
-              <div style="display:flex;align-items:flex-start;gap:10px;font-family:var(--font-sans);font-size:13.5px;color:#2D3748;line-height:1.5">
-                <svg viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="#0C3B61" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-top:2px" aria-hidden="true"><polyline points="3 8.5 6.5 12 13 4"></polyline></svg>
+            <div style="display:flex;flex-direction:column;gap:12px;margin:22px 0 24px;position:relative;z-index:1">
+              <div style="display:flex;align-items:flex-start;gap:10px;font-family:var(--font-sans);font-size:13.5px;color:#2D3748;line-height:1.5;padding-bottom:10px;border-bottom:1px solid #F0F0EB">
+                <svg viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="#1B75BC" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-top:2px" aria-hidden="true"><polyline points="3 8.5 6.5 12 13 4"></polyline></svg>
                 <span><strong>Locked-In Price:</strong> Formal contract price agreed prior to build commencement.</span>
               </div>
-              <div style="display:flex;align-items:flex-start;gap:10px;font-family:var(--font-sans);font-size:13.5px;color:#2D3748;line-height:1.5">
-                <svg viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="#0C3B61" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-top:2px" aria-hidden="true"><polyline points="3 8.5 6.5 12 13 4"></polyline></svg>
+              <div style="display:flex;align-items:flex-start;gap:10px;font-family:var(--font-sans);font-size:13.5px;color:#2D3748;line-height:1.5;padding-bottom:10px;border-bottom:1px solid #F0F0EB">
+                <svg viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="#1B75BC" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-top:2px" aria-hidden="true"><polyline points="3 8.5 6.5 12 13 4"></polyline></svg>
                 <span><strong>Zero Hidden Extras:</strong> Structural timbers, steels, architectural plans, and sign-offs included.</span>
               </div>
               <div style="display:flex;align-items:flex-start;gap:10px;font-family:var(--font-sans);font-size:13.5px;color:#2D3748;line-height:1.5">
-                <svg viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="#0C3B61" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-top:2px" aria-hidden="true"><polyline points="3 8.5 6.5 12 13 4"></polyline></svg>
+                <svg viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="#1B75BC" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-top:2px" aria-hidden="true"><polyline points="3 8.5 6.5 12 13 4"></polyline></svg>
                 <span><strong>Milestone Invoicing:</strong> Staged payments released only as physical build milestones are inspected.</span>
               </div>
             </div>
 
-            <div style="margin-top:auto;padding:12px 16px;background:#F0F7FD;border:1px solid #CDE4F7;border-radius:8px;display:flex;align-items:center;justify-content:space-between;gap:8px;font-family:var(--font-sans);font-size:12.5px;font-weight:700;color:#0C3B61;position:relative;z-index:1">
+            <div style="margin-top:auto;padding-top:16px;border-top:1px solid #F0F0EB;display:flex;align-items:center;justify-content:space-between;gap:8px;font-family:var(--font-sans);font-size:12.5px;font-weight:700;color:#0C3B61;position:relative;z-index:1">
               <span>✓ 100% Price Lock Guarantee</span>
               <span style="color:#1B75BC">•</span>
               <span>No Mid-Build Surprises</span>
@@ -307,7 +307,7 @@ include 'includes/header.php';
           </div>
 
           <!-- Standard 02: Building Regulations & Council Sign-Off -->
-          <div class="principle-card" style="background:#FFFFFF;border:1px solid #E2E8F0;border-radius:12px;padding:clamp(24px,3vw,36px) clamp(20px,2.5vw,32px);display:flex;flex-direction:column;position:relative;overflow:hidden;box-shadow:0 4px 20px -4px rgba(12,59,97,0.06),0 1px 3px rgba(0,0,0,0.02);transition:border-color .25s ease,box-shadow .25s ease" onmouseover="this.style.borderColor='#1B75BC';this.style.boxShadow='0 12px 28px -6px rgba(19,82,132,0.16),0 2px 6px rgba(0,0,0,0.04)';this.querySelector('.prin-ghost').style.color='#E5F2FC';this.querySelector('.prin-icon-wrap').style.backgroundColor='#F0F7FD'" onmouseout="this.style.borderColor='#E2E8F0';this.style.boxShadow='0 4px 20px -4px rgba(12,59,97,0.06),0 1px 3px rgba(0,0,0,0.02)';this.querySelector('.prin-ghost').style.color='#F1F4EE';this.querySelector('.prin-icon-wrap').style.backgroundColor='#F0F7FD'">
+          <div class="principle-card" style="background:#FFFFFF;border:1px solid #E2E8F0;border-radius:12px;padding:clamp(26px,3vw,38px) clamp(22px,2.5vw,34px);display:flex;flex-direction:column;position:relative;overflow:hidden;box-shadow:0 4px 20px -4px rgba(12,59,97,0.06),0 1px 3px rgba(0,0,0,0.02);transition:border-color .25s ease,box-shadow .25s ease" onmouseover="this.style.borderColor='#1B75BC';this.style.boxShadow='0 12px 28px -6px rgba(19,82,132,0.16),0 2px 6px rgba(0,0,0,0.04)';this.querySelector('.prin-ghost').style.color='#E5F2FC';this.querySelector('.prin-icon-wrap').style.backgroundColor='#F0F7FD'" onmouseout="this.style.borderColor='#E2E8F0';this.style.boxShadow='0 4px 20px -4px rgba(12,59,97,0.06),0 1px 3px rgba(0,0,0,0.02)';this.querySelector('.prin-ghost').style.color='#F1F4EE';this.querySelector('.prin-icon-wrap').style.backgroundColor='#F0F7FD'">
             <div class="prin-ghost" style="position:absolute;top:8px;right:20px;font-family:var(--font-serif);font-size:68px;font-weight:400;color:#F1F4EE;line-height:1;user-select:none;pointer-events:none;transition:color .25s ease">02</div>
             
             <div style="display:flex;align-items:center;justify-content:space-between;position:relative;z-index:1;margin-bottom:18px">
@@ -322,22 +322,22 @@ include 'includes/header.php';
               <p style="font-family:var(--font-sans);font-size:15px;line-height:1.65;color:#555550;margin:0">Complete management of all statutory compliance from initial structural calculations through to final on-site Building Control inspections and certificate delivery.</p>
             </div>
 
-            <div style="display:flex;flex-direction:column;gap:10px;margin:20px 0;padding:16px 18px;background:#F8FAFC;border:1px solid #EDEDE8;border-radius:8px;position:relative;z-index:1">
-              <div style="display:flex;align-items:flex-start;gap:10px;font-family:var(--font-sans);font-size:13.5px;color:#2D3748;line-height:1.5">
-                <svg viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="#0C3B61" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-top:2px" aria-hidden="true"><polyline points="3 8.5 6.5 12 13 4"></polyline></svg>
+            <div style="display:flex;flex-direction:column;gap:12px;margin:22px 0 24px;position:relative;z-index:1">
+              <div style="display:flex;align-items:flex-start;gap:10px;font-family:var(--font-sans);font-size:13.5px;color:#2D3748;line-height:1.5;padding-bottom:10px;border-bottom:1px solid #F0F0EB">
+                <svg viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="#1B75BC" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-top:2px" aria-hidden="true"><polyline points="3 8.5 6.5 12 13 4"></polyline></svg>
                 <span><strong>Calculations Pack:</strong> Signed structural engineer calculations confirming load bearing specs.</span>
               </div>
-              <div style="display:flex;align-items:flex-start;gap:10px;font-family:var(--font-sans);font-size:13.5px;color:#2D3748;line-height:1.5">
-                <svg viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="#0C3B61" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-top:2px" aria-hidden="true"><polyline points="3 8.5 6.5 12 13 4"></polyline></svg>
+              <div style="display:flex;align-items:flex-start;gap:10px;font-family:var(--font-sans);font-size:13.5px;color:#2D3748;line-height:1.5;padding-bottom:10px;border-bottom:1px solid #F0F0EB">
+                <svg viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="#1B75BC" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-top:2px" aria-hidden="true"><polyline points="3 8.5 6.5 12 13 4"></polyline></svg>
                 <span><strong>Council Liaison:</strong> All Building Control notices submitted and officer walk-throughs hosted by us.</span>
               </div>
               <div style="display:flex;align-items:flex-start;gap:10px;font-family:var(--font-sans);font-size:13.5px;color:#2D3748;line-height:1.5">
-                <svg viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="#0C3B61" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-top:2px" aria-hidden="true"><polyline points="3 8.5 6.5 12 13 4"></polyline></svg>
+                <svg viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="#1B75BC" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-top:2px" aria-hidden="true"><polyline points="3 8.5 6.5 12 13 4"></polyline></svg>
                 <span><strong>Official Completion Certificate:</strong> Essential documentation issued for your property deeds.</span>
               </div>
             </div>
 
-            <div style="margin-top:auto;padding:12px 16px;background:#F0F7FD;border:1px solid #CDE4F7;border-radius:8px;display:flex;align-items:center;justify-content:space-between;gap:8px;font-family:var(--font-sans);font-size:12.5px;font-weight:700;color:#0C3B61;position:relative;z-index:1">
+            <div style="margin-top:auto;padding-top:16px;border-top:1px solid #F0F0EB;display:flex;align-items:center;justify-content:space-between;gap:8px;font-family:var(--font-sans);font-size:12.5px;font-weight:700;color:#0C3B61;position:relative;z-index:1">
               <span>✓ Full Council Sign-Off</span>
               <span style="color:#1B75BC">•</span>
               <span>Official Completion Cert</span>
