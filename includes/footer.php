@@ -91,7 +91,7 @@ $badges = ['VELUX Certified', 'Gas Safe', 'NIC EIC', 'Checkatrade'];
     </div>
 
     <div class="footer-bottom">
-      <span>&copy; <?php echo date("Y"); ?> Loft Conversions North Ltd</span>
+      <span>&copy; <?php echo date("Y"); ?> Loft Conversions North</span>
       <div class="footer-bottom-links">
         <a href="terms-conditions.php">Terms &amp; Conditions</a>
         <a href="our-guarantee.php">Guarantee</a>
