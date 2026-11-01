@@ -391,7 +391,7 @@ include 'includes/header.php';
             <span class="proc-step-title" style="font-family:Newsreader,Georgia,serif;font-size:21px;line-height:1.15">Handover</span>
             <span class="proc-step-desc" style="font-size:14px;line-height:1.6;color:#6B6B6B">Completion certificate, guarantee paperwork, and the site left clean.</span>
             <span class="proc-step-tags" style="display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:auto;padding-top:8px;font-family:'IBM Plex Mono',monospace;font-size:12px">
-              <span class="proc-step-tag proc-tag-accent" style="color:#135284">10-yr guarantee</span><span class="proc-step-tag" style="color:#6B6B6B">Certified</span>
+              <span class="proc-step-tag proc-tag-accent" style="color:#135284">6-yr guarantee</span><span class="proc-step-tag" style="color:#6B6B6B">Certified</span>
             </span>
           </div>
 

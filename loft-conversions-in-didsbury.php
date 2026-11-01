@@ -46,7 +46,7 @@ $faqs = [
     ['q' => 'Is a structural engineer calculation included?', 'a' => 'Yes, all steel calculations, ridge beam specifications, and Building Control notices are fully included in our fixed-price contract.'],
     ['q' => 'How do you maintain water pressure on top-floor bathrooms?', 'a' => 'We survey your plumbing and can integrate booster pumps or unvented hot water cylinders to deliver high-pressure shower flow to the new loft ensuite.'],
     ['q' => 'When can I book a survey in Didsbury?', 'a' => 'Our surveyor accommodates morning and afternoon visits (Monday to Friday, 8am – 5pm) across M20 postcodes.'],
-    ['q' => 'What guarantee comes with the build?', 'a' => 'A full 10-year insurance-backed structural guarantee and NICEIC/Gas Safe certification for all mechanical installations.'],
+    ['q' => 'What guarantee comes with the build?', 'a' => 'A full 6-year insurance-backed structural guarantee and NICEIC/Gas Safe certification for all mechanical installations.'],
 ];
 
 $nearby = ['Chorlton', 'Altrincham', 'Sale', 'Cheadle', 'Manchester'];

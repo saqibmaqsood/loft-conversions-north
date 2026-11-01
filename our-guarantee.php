@@ -48,7 +48,7 @@ include 'includes/header.php';
         </h1>
         
         <p class="lead-text" style="font-family:var(--font-sans);font-size:clamp(16px,1.8vw,17.5px);color:#4A4A45;line-height:1.7;margin:0;max-width:54ch">
-          Inviting tradesmen into your home requires complete trust. That is why we protect your carpets with heavy-duty coverings, treat your living spaces with total care, and back every steel, joist, and joint with our <strong>10-year written structural guarantee</strong>.
+          Inviting tradesmen into your home requires complete trust. That is why we protect your carpets with heavy-duty coverings, treat your living spaces with total care, and back every steel, joist, and joint with our <strong>6-year written structural guarantee</strong>.
         </p>
 
         <div class="hero-actions-row" style="margin-top:6px">
@@ -61,7 +61,7 @@ include 'includes/header.php';
 
         <!-- Quick Trust Pill Row -->
         <div class="proc-hero-trust-bullets">
-          <span class="proc-trust-bullet"><strong style="color:#0C3B61">✓</strong> 10-Yr Structural Warranty</span>
+          <span class="proc-trust-bullet"><strong style="color:#0C3B61">✓</strong> 6-Yr Structural Warranty</span>
           <span class="proc-trust-bullet"><strong style="color:#0C3B61">✓</strong> Guaranteed Fixed Price</span>
           <span class="proc-trust-bullet"><strong style="color:#0C3B61">✓</strong> Dedicated Build Crew</span>
           <span class="proc-trust-bullet proc-trust-bullet-mobile"><strong style="color:#0C3B61">✓</strong> Building Control Handled</span>
@@ -89,7 +89,7 @@ include 'includes/header.php';
         <div class="guar-metrics-grid">
           
           <div class="guar-metric-badge">
-            <span class="guar-metric-val">10 Years</span>
+            <span class="guar-metric-val">6 Years</span>
             <strong class="guar-metric-title">Written Warranty</strong>
             <span class="guar-metric-sub">All timbers, steels &amp; roof</span>
           </div>
@@ -161,7 +161,7 @@ include 'includes/header.php';
         </div>
         <div class="guar-header-actions" style="display:flex;align-items:center;gap:12px">
           <div class="guar-header-trust-pill" style="display:inline-flex;align-items:center;gap:8px;background:#FAF9F5;border:1px solid #E6E6DF;padding:8px 16px;border-radius:24px;font-family:var(--font-sans);font-size:13px;color:#0C3B61;font-weight:600">
-            <span>✓ 10-Yr Guarantee</span>
+            <span>✓ 6-Yr Guarantee</span>
             <span style="color:#D4D4CC">•</span>
             <span>✓ 400+ Lofts Completed</span>
           </div>
@@ -329,10 +329,10 @@ include 'includes/header.php';
               </span>
             </div>
             <h3 style="font-family:var(--font-serif);font-size:21px;margin:0 0 10px;color:#1A1A1A;font-weight:400">
-              10-Year Written Structural Guarantee
+              6-Year Written Structural Guarantee
             </h3>
             <p style="font-family:var(--font-sans);font-size:14.5px;color:#4A4A45;line-height:1.65;margin:0 0 16px">
-              Every structural steel beam, floor joist, timber frame, and dormer installation is backed by our comprehensive 10-year written structural warranty, providing lasting peace of mind long after project handover.
+              Every structural steel beam, floor joist, timber frame, and dormer installation is backed by our comprehensive 6-year written structural warranty, providing lasting peace of mind long after project handover.
             </p>
           </div>
           <div style="border-top:1px solid #EBEBE6;padding-top:12px;font-family:var(--font-sans);font-size:12.5px;color:#135284;font-weight:600">
@@ -404,7 +404,7 @@ include 'includes/header.php';
           </div>
           <div style="padding:0 20px 18px">
             <div style="background:#F0F7FD;border:1px solid #CDE4F7;border-radius:8px;padding:8px 12px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-sans);font-size:11.5px;font-weight:700;color:#0C3B61">
-              <span>✓ 10-Yr Warranty</span>
+              <span>✓ 6-Yr Warranty</span>
               <span style="color:#1B75BC">•</span>
               <span>Regs Approved</span>
             </div>
@@ -434,7 +434,7 @@ include 'includes/header.php';
           </div>
           <div style="padding:0 20px 18px">
             <div style="background:#F0F7FD;border:1px solid #CDE4F7;border-radius:8px;padding:8px 12px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-sans);font-size:11.5px;font-weight:700;color:#0C3B61">
-              <span>✓ 10-Yr Warranty</span>
+              <span>✓ 6-Yr Warranty</span>
               <span style="color:#1B75BC">•</span>
               <span>Regs Approved</span>
             </div>
@@ -464,7 +464,7 @@ include 'includes/header.php';
           </div>
           <div style="padding:0 20px 18px">
             <div style="background:#F0F7FD;border:1px solid #CDE4F7;border-radius:8px;padding:8px 12px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-sans);font-size:11.5px;font-weight:700;color:#0C3B61">
-              <span>✓ 10-Yr Warranty</span>
+              <span>✓ 6-Yr Warranty</span>
               <span style="color:#1B75BC">•</span>
               <span>Regs Approved</span>
             </div>
@@ -494,7 +494,7 @@ include 'includes/header.php';
           </div>
           <div style="padding:0 20px 18px">
             <div style="background:#F0F7FD;border:1px solid #CDE4F7;border-radius:8px;padding:8px 12px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-sans);font-size:11.5px;font-weight:700;color:#0C3B61">
-              <span>✓ 10-Yr Warranty</span>
+              <span>✓ 6-Yr Warranty</span>
               <span style="color:#1B75BC">•</span>
               <span>Regs Approved</span>
             </div>

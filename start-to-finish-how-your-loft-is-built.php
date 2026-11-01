@@ -62,14 +62,14 @@ include 'includes/header.php';
             <span>Book Free Survey</span>
             <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"></path></svg>
           </a>
-          <a href="guarantee.php" class="btn-secondary hero-btn"><span class="hide-mobile">Read Our </span>10-Year Guarantee</a>
+          <a href="our-guarantee.php" class="btn-secondary hero-btn"><span class="hide-mobile">Read Our </span>6-Year Guarantee</a>
         </div>
 
         <div class="proc-hero-trust-bullets">
           <span class="proc-trust-bullet"><strong style="color:#0C3B61">✓</strong> 3–6 Weeks Typical Build</span>
           <span class="proc-trust-bullet"><strong style="color:#0C3B61">✓</strong> 100% In-House Craftsmen</span>
           <span class="proc-trust-bullet"><strong style="color:#0C3B61">✓</strong> Building Control Handled</span>
-          <span class="proc-trust-bullet proc-trust-bullet-mobile"><strong style="color:#0C3B61">✓</strong> 10-Year Guarantee</span>
+          <span class="proc-trust-bullet proc-trust-bullet-mobile"><strong style="color:#0C3B61">✓</strong> 6-Year Guarantee</span>
         </div>
       </div>
 
@@ -125,9 +125,9 @@ include 'includes/header.php';
         <div style="margin-top:4px;padding-top:14px;border-top:1px solid #F0F0EB;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-sans);font-size:12.5px;color:#0C3B61;font-weight:600">
           <span style="display:inline-flex;align-items:center;gap:6px">
             <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="3 8.5 6.5 12 13 4"></polyline></svg>
-            10-Year Written Guarantee
+            6-Year Written Guarantee
           </span>
-          <a href="guarantee.php" style="color:#135284;text-decoration:none;font-weight:600">Learn more &rarr;</a>
+          <a href="our-guarantee.php" style="color:#135284;text-decoration:none;font-weight:600">Learn more &rarr;</a>
         </div>
       </div>
     </div>
@@ -383,7 +383,7 @@ include 'includes/header.php';
           <div style="display:flex;align-items:center;gap:12px">
             <span class="stage-num-badge" style="font-family:var(--font-sans);font-size:13px;font-weight:700;color:#0C3B61;background:#F0F7FD;border:1px solid #CDE4F7;width:30px;height:30px;border-radius:7px;display:flex;align-items:center;justify-content:center;flex-shrink:0">08</span>
             <div class="stage-title-wrap">
-              <strong style="font-family:var(--font-sans);font-size:14px;color:#1A1A1A;display:block;font-weight:600">2nd Fix, Sign-Off &amp; 10-Yr Warranty</strong>
+              <strong style="font-family:var(--font-sans);font-size:14px;color:#1A1A1A;display:block;font-weight:600">2nd Fix, Sign-Off &amp; 6-Yr Warranty</strong>
               <span class="stage-sub" style="font-family:var(--font-sans);font-size:11.5px;color:#6B6B65;font-weight:500">Handover &middot; Official Completion Cert</span>
             </div>
           </div>
@@ -646,10 +646,10 @@ include 'includes/header.php';
               <span style="font-family:var(--font-sans);font-size:12px;color:#6B6B65">Phase: Final Certification</span>
             </div>
 
-            <h3 style="font-family:var(--font-serif);font-size:clamp(24px,2.8vw,32px);line-height:1.2;margin:0 0 14px;color:#1A1A1A;font-weight:400;position:relative;z-index:1">2nd-Fix Joinery, Final Building Control Sign-Off &amp; 10-Yr Guarantee</h3>
+            <h3 style="font-family:var(--font-serif);font-size:clamp(24px,2.8vw,32px);line-height:1.2;margin:0 0 14px;color:#1A1A1A;font-weight:400;position:relative;z-index:1">2nd-Fix Joinery, Final Building Control Sign-Off &amp; 6-Yr Guarantee</h3>
             
             <p style="font-family:var(--font-sans);font-size:15.5px;color:#4A4A45;line-height:1.75;margin:0 0 20px;position:relative;z-index:1">
-              We install FD30 fire doors, architraves, skirting boards, electrical sockets, switches, and bathroom sanitaryware. The Building Control officer conducts the final walk-through inspection. Once approved, you receive your official <strong>Building Control Completion Certificate</strong> and our <strong>10-Year Written Structural Guarantee</strong>.
+              We install FD30 fire doors, architraves, skirting boards, electrical sockets, switches, and bathroom sanitaryware. The Building Control officer conducts the final walk-through inspection. Once approved, you receive your official <strong>Building Control Completion Certificate</strong> and our <strong>6-Year Written Structural Guarantee</strong>.
             </p>
 
             <div style="border:1px solid #E2E8F0;border-radius:10px;overflow:hidden;margin-bottom:22px;box-shadow:0 3px 12px rgba(0,0,0,0.04)">
@@ -659,7 +659,7 @@ include 'includes/header.php';
             <div style="background:#FAF9F5;border:1px solid #EDEDE8;border-radius:8px;padding:14px 18px;margin-bottom:20px;display:flex;flex-wrap:wrap;align-items:center;gap:12px;font-family:var(--font-sans);font-size:13px;color:#0C3B61;font-weight:600">
               <span>✓ FD30 fire doors &amp; architectural finish</span>
               <span>✓ Official Building Control Completion Certificate</span>
-              <span>✓ 10-Year written structural warranty</span>
+              <span>✓ 6-Year written structural warranty</span>
             </div>
 
             <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:10px">

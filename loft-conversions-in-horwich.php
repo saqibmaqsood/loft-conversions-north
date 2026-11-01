@@ -46,7 +46,7 @@ $faqs = [
     ['q' => 'How do you handle fire regulations for high cottages?', 'a' => 'We install interlinked mains smoke alarms, 30-minute fire doors, and protected escape routes to satisfy Building Regulations Part B.'],
     ['q' => 'How quickly can you survey my home in BL6?', 'a' => 'Our surveyor is in Horwich, Westhoughton, and Bolton several days a week, offering survey appointments within 5 days.'],
     ['q' => 'Is heating included in the loft design?', 'a' => 'Yes, our Gas Safe engineers extend your central heating with new radiators or underfloor heating.'],
-    ['q' => 'What guarantees are provided?', 'a' => 'A 10-year structural warranty and full Building Control completion certificates.'],
+    ['q' => 'What guarantees are provided?', 'a' => 'A 6-year structural warranty and full Building Control completion certificates.'],
 ];
 
 $nearby = ['Bolton', 'Westhoughton', 'Chorley', 'Wigan', 'Standish'];

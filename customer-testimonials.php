@@ -156,7 +156,7 @@ include 'includes/header.php';
           </span>
           <span style="display:inline-flex;align-items:center;gap:6px">
             <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="#135284" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
-            10-Year Guarantee
+            6-Year Guarantee
           </span>
         </div>
       </div>
@@ -310,7 +310,7 @@ include 'includes/header.php';
                   </span>
                 </div>
                 <span style="font-family:var(--font-sans);font-size:11px;font-weight:700;color:#0C3B61;background:#F0F7FD;border:1px solid #CDE4F7;padding:3px 8px;border-radius:8px">
-                  10-Yr Guarantee ✓
+                  6-Yr Guarantee ✓
                 </span>
               </div>
             </div>

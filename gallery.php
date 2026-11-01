@@ -174,7 +174,7 @@ include 'includes/header.php';
             <!-- Card Bottom Guarantee Strip -->
             <div style="padding:0 20px 18px">
               <div style="background:#FAF9F5;border:1px solid #EBEBE6;border-radius:8px;padding:8px 12px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-sans);font-size:11.5px;font-weight:700;color:#0C3B61">
-                <span>✓ 10-Yr Guarantee</span>
+                <span>✓ 6-Yr Guarantee</span>
                 <span style="color:#1B75BC">•</span>
                 <span>Building Regs Signed Off</span>
               </div>

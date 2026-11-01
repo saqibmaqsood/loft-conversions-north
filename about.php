@@ -206,7 +206,7 @@ include 'includes/header.php';
                 </div>
                 <div style="display:flex;justify-content:space-between;gap:16px;padding:10px 0;border-top:1px solid #EDEDE8">
                   <dt style="font-family:var(--font-sans);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:#6B6B6B;font-weight:600">Guarantee</dt>
-                  <dd style="margin:0;font-size:13px;font-weight:700;text-align:right;color:#0C3B61">10-Year Written Guarantee</dd>
+                  <dd style="margin:0;font-size:13px;font-weight:700;text-align:right;color:#0C3B61">6-Year Written Guarantee</dd>
                 </div>
               </dl>
               <div style="display:flex;gap:10px;margin-top:4px">
@@ -369,7 +369,7 @@ include 'includes/header.php';
         <div class="accred-left-col">
           <span class="section-label">Accreditations &amp; Security</span>
           <h2 id="acc-h" class="heading-h2" style="font-size:clamp(28px,4vw,44px);margin:12px 0 18px;max-width:20ch">Full Regulatory Certification, Warranties & Complete Compliance Records.</h2>
-          <p style="font-size:16px;line-height:1.7;color:#4A4A45;margin:0 0 24px;max-width:48ch;text-wrap:pretty">Every conversion leaves with a building control completion certificate, structural calculations pack, and our 10-year written guarantee. Keep them in your house deeds file &mdash; a surveyor will ask for them when you eventually sell.</p>
+          <p style="font-size:16px;line-height:1.7;color:#4A4A45;margin:0 0 24px;max-width:48ch;text-wrap:pretty">Every conversion leaves with a building control completion certificate, structural calculations pack, and our 6-year written guarantee. Keep them in your house deeds file &mdash; a surveyor will ask for them when you eventually sell.</p>
           
           <!-- Real Accreditation Logos (3 Prominent Cards) -->
           <div class="accred-logos-grid">
@@ -396,7 +396,7 @@ include 'includes/header.php';
           <li class="guarantee-item">
             <span class="guar-num">02</span>
             <span class="guar-content">
-              <span class="guar-title">10-Year Written Structural Warranty</span>
+              <span class="guar-title">6-Year Written Structural Warranty</span>
               <span class="guar-desc">Covers structural timbers, steels, dormer framework, and flat roof membranes.</span>
             </span>
           </li>

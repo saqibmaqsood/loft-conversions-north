@@ -46,7 +46,7 @@ $faqs = [
     ['q' => 'Can you survey my property in Ramsbottom or Tottington?', 'a' => 'Yes, our local surveyor visits Bury, Tottington, Ramsbottom, Radcliffe and Whitefield weekly.'],
     ['q' => 'Will my water pressure support an en-suite in the loft?', 'a' => 'We check your boiler and water system during the free survey. If you have an unvented cylinder or combi boiler, supplying a loft en-suite is straightforward.'],
     ['q' => 'How clean is the construction process?', 'a' => 'All heavy structural materials enter through scaffolding and the roof. Your living areas remain undisturbed until internal staircase installation.'],
-    ['q' => 'What warranties are provided?', 'a' => 'We provide a comprehensive 10-year structural warranty alongside manufacturer guarantees for Velux windows and roofing membranes.'],
+    ['q' => 'What warranties are provided?', 'a' => 'We provide a comprehensive 6-year structural warranty alongside manufacturer guarantees for Velux windows and roofing membranes.'],
 ];
 
 $nearby = ['Bolton', 'Rochdale', 'Middleton', 'Salford', 'Manchester'];
